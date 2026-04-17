@@ -90,7 +90,7 @@ function DesktopDropdown({ item }: { item: NavItem }) {
                   key={child.href}
                   href={child.href}
                   onClick={() => setOpen(false)}
-                  className="block px-4 py-2 text-sm text-gray-300 transition-colors hover:bg-white/10 hover:text-white"
+                  className="block px-4 py-2 text-sm text-gray-400 transition-all duration-200 bg-gradient-to-l from-transparent to-transparent hover:from-accent/15 hover:text-white"
                 >
                   {child.label}
                 </Link>
@@ -194,9 +194,9 @@ export function Header() {
           <Image
             src="/images/betterer-gg-logo.png"
             alt="Gorilla Gold - Grip Enhancer - The Feel For The Game"
-            width={140}
-            height={40}
-            className="h-9 w-auto"
+            width={220}
+            height={60}
+            className="h-14 w-auto -my-2"
             priority
           />
         </Link>
