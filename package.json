@@ -8,9 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "@react-three/fiber": "^9.6.0",
+    "@types/d3": "^7.4.3",
+    "@types/three": "^0.184.0",
+    "cannon-es": "^0.20.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
     "next": "16.2.2",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "simplex-noise": "^4.0.3",
+    "tailwind-merge": "^3.5.0",
+    "three": "^0.184.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
