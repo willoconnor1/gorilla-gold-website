@@ -3,52 +3,49 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { SectionLabel } from "@/components/ui/SectionLabel";
-import {
-  ArrowUpRight,
-  CircleDot,
-  Target,
-  CloudRain,
-  Droplets,
-  Leaf,
-} from "lucide-react";
-import { type LucideIcon } from "lucide-react";
 import RotatingGolfClub from "@/components/ui/wireframe-golf-club";
+import RotatingPickleballPaddle from "@/components/ui/wireframe-pickleball-paddle";
+import RotatingTennisRacquet from "@/components/ui/wireframe-tennis-racquet";
+import RotatingUmbrella from "@/components/ui/wireframe-umbrella";
+import RotatingSweatyHand from "@/components/ui/wireframe-sweaty-hand";
+import RotatingBaseball from "@/components/ui/wireframe-baseball";
 
-const sports: {
-  name: string;
-  description: string;
-  href: string;
-  icon: LucideIcon;
-}[] = [
+const sports = [
+  {
+    name: "Golf",
+    description: "Best golf grip aid for sweaty hands, rain, and humid conditions.",
+    href: "/golf-grip-aid",
+    visualization: RotatingGolfClub,
+  },
   {
     name: "Pickleball",
     description: "Keep your paddle from slipping in hot weather and humidity.",
     href: "/pickleball-grip-aid",
-    icon: CircleDot,
+    visualization: RotatingPickleballPaddle,
   },
   {
     name: "Tennis",
     description: "Improved racquet grip and reduced wrist vibration in humid conditions.",
     href: "/tennis-grip-aid",
-    icon: Target,
+    visualization: RotatingTennisRacquet,
   },
   {
     name: "Wet Weather",
     description: "Grip confidence in rain, humidity, and any wet condition.",
     href: "/wet-weather-grip-aid",
-    icon: CloudRain,
+    visualization: RotatingUmbrella,
   },
   {
     name: "Sweaty Hands",
     description: "The go-to solution for athletes who struggle with perspiration.",
     href: "/sweaty-hands-grip-aid",
-    icon: Droplets,
+    visualization: RotatingSweatyHand,
   },
   {
-    name: "Active Living",
-    description: "Grip support for gardening, fishing, walking poles, and more.",
-    href: "/active-living-grip",
-    icon: Leaf,
+    name: "Softball / Baseball",
+    description: "Secure bat grip in heat, humidity, and high-pressure at-bats.",
+    href: "/softball-baseball-grip-aid",
+    visualization: RotatingBaseball,
   },
 ];
 
@@ -73,54 +70,27 @@ export function UseCases() {
           </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Golf - featured with spinning wireframe club */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.3 }}
-            className="sm:col-span-2 lg:col-span-1 lg:row-span-2 flex items-center justify-center"
-          >
-            <Link
-              href="/golf-grip-aid"
-              className="group flex flex-col items-center text-center"
-            >
-              <h3 className="mb-1 font-heading text-base font-semibold text-text-primary transition-colors group-hover:text-accent">
-                Golf
-              </h3>
-              <RotatingGolfClub width={200} height={160} />
-              <p className="-mt-6 max-w-[280px] text-sm text-text-secondary">
-                Best golf grip aid for sweaty hands, rain, and humid conditions.
-              </p>
-            </Link>
-          </motion.div>
-
-          {/* Other sports - standard cards */}
+        <div className="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-3">
           {sports.map((sport, i) => (
             <motion.div
               key={sport.name}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: (i + 1) * 0.05 }}
+              transition={{ duration: 0.3, delay: i * 0.05 }}
+              className="flex items-center justify-center"
             >
               <Link
                 href={sport.href}
-                className="group flex items-start gap-4 rounded-2xl border border-border bg-bg-primary p-6 transition-all hover:border-accent/50 hover:bg-bg-elevated"
+                className="group flex flex-col items-center text-center"
               >
-                <sport.icon className="h-6 w-6 shrink-0 text-accent" strokeWidth={1.5} />
-                <div className="flex-1">
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-heading text-base font-semibold text-text-primary">
-                      {sport.name}
-                    </h3>
-                    <ArrowUpRight className="h-4 w-4 text-text-muted opacity-0 transition-all group-hover:text-accent group-hover:opacity-100" />
-                  </div>
-                  <p className="mt-1 text-sm text-text-secondary">
-                    {sport.description}
-                  </p>
-                </div>
+                <h3 className="mb-1 font-heading text-base font-semibold text-text-primary transition-colors group-hover:text-accent">
+                  {sport.name}
+                </h3>
+                <sport.visualization width={200} height={160} />
+                <p className="-mt-6 max-w-[280px] text-sm text-text-secondary">
+                  {sport.description}
+                </p>
               </Link>
             </motion.div>
           ))}
