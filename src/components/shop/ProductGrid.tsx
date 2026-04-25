@@ -7,7 +7,7 @@ import { products } from "@/data/products";
 
 export function ProductGrid() {
   return (
-    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
       {products.map((product) => (
         <a
           key={product.handle}
@@ -22,7 +22,7 @@ export function ProductGrid() {
                 src={product.images[0].src}
                 alt={product.images[0].alt}
                 fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                 className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"
               />
             </div>

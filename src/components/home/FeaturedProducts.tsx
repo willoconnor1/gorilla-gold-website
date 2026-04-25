@@ -75,7 +75,7 @@ export function FeaturedProducts() {
           </Button>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((product, i) => (
             <motion.div
               key={product.name}
@@ -99,7 +99,7 @@ export function FeaturedProducts() {
                       alt={product.alt}
                       fill
                       className="object-contain p-4 pt-8 object-center transition-transform duration-300 group-hover:scale-105"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     />
                   </div>
 
@@ -114,11 +114,11 @@ export function FeaturedProducts() {
                         </p>
                       </div>
                     </div>
-                    <div className="mt-4 flex items-center justify-between">
+                    <div className="mt-4 flex flex-col gap-3">
                       <span className="text-sm font-medium text-accent">
                         {product.price}
                       </span>
-                      <div className="flex gap-1">
+                      <div className="flex flex-wrap gap-1">
                         {product.sports.map((sport) => (
                           <span
                             key={sport}

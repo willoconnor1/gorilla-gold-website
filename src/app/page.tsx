@@ -1,5 +1,4 @@
 import { HeroImage } from "@/components/home/HeroImage";
-import { TrustBar } from "@/components/home/TrustBar";
 import { ProblemSolution } from "@/components/home/ProblemSolution";
 import { FeaturedProducts } from "@/components/home/FeaturedProducts";
 import { UseCases } from "@/components/home/UseCases";
@@ -14,7 +13,6 @@ export default function Home() {
     <>
       <OrganizationSchema />
       <HeroImage />
-      <TrustBar />
       <UseCases />
       <FeaturedProducts />
       <ProblemSolution />

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
+import { SanctioningLogos } from "@/components/home/SanctioningLogos";
 
 export function HeroImage() {
   return (
@@ -62,36 +63,6 @@ export function HeroImage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-medium text-white/90"
-          >
-            <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1">
-              USGA approved
-            </span>
-            <span className="rounded-full border border-white/30 bg-white/10 px-3 py-1">
-              R&A conforming
-            </span>
-            <span className="text-white/60">Conforms with the Rules of Golf</span>
-          </motion.div>
-
-          {/* TODO: Tom — confirm wording and which fastpitch approvals to display on the upper fold (NCAA / NFHS / USA Softball / ISC / ISF). Placeholder shown until confirmed. */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.35 }}
-            className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-medium text-white/80"
-          >
-            <span className="rounded-full border border-dashed border-accent/60 bg-accent/10 px-3 py-1 text-accent">
-              Allowed by NCAA, NFHS &amp; USA Softball
-            </span>
-            <span className="text-xs uppercase tracking-wide text-white/50">
-              (placeholder, pending Tom confirm)
-            </span>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-10 flex flex-wrap items-center gap-4"
           >
             <Button href="/shop" variant="primary" size="lg" arrow>
@@ -102,6 +73,18 @@ export function HeroImage() {
             </Button>
           </motion.div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.45 }}
+          className="mt-12 max-w-xl"
+        >
+          <p className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-white/60">
+            Approved &amp; conforming
+          </p>
+          <SanctioningLogos />
+        </motion.div>
       </div>
     </section>
   );

@@ -61,11 +61,11 @@ export function ProductModule({ productHandles }: ProductModuleProps) {
                     <p className="mt-2 text-sm leading-relaxed text-text-secondary">
                       {product.tagline}
                     </p>
-                    <div className="mt-4 flex items-center justify-between">
+                    <div className="mt-4 flex flex-col gap-3">
                       <span className="text-sm font-medium text-accent">
                         From ${minPrice.toFixed(2)}
                       </span>
-                      <div className="flex gap-1">
+                      <div className="flex flex-wrap gap-1">
                         {product.sports.map((sport) => (
                           <span
                             key={sport}
