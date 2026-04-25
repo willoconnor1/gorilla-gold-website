@@ -19,7 +19,7 @@ const prompts = [
     icon: Trophy,
     title: "What sport were you playing?",
     description:
-      "Mention your sport and skill level. Whether you play golf, pickleball, tennis, softball, or something else entirely, your experience helps athletes in the same sport discover Gorilla Gold.",
+      "Mention your sport and skill level. Whether you play golf, pickleball, tennis, softball, gymnastics, soccer, or something else entirely, your experience helps athletes in the same sport discover Gorilla Gold.",
   },
 ];
 

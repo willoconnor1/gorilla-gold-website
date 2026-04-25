@@ -30,7 +30,7 @@ export default function ShopPage() {
       <PageHero
         label="Shop"
         h1="Shop Gorilla Gold Grip-Enhancing Towels"
-        introText="Gorilla Gold is available in three sport-specific versions, each built with the same all-natural resin formula. Choose the grip-enhancing towel designed for your game: Golf, All-Sport, or Softball/Baseball. Every version is reusable, creates a moisture-resistant tackified feel, and dissolves within hours with no residue."
+        introText="Gorilla Gold is available in four sport-specific versions, each built with the same all-natural resin formula. Choose the grip-enhancing towel designed for your game: Golf, All-Sport, Racquet Sports, or Softball/Baseball. Every version is reusable, creates a moisture-resistant tackified feel, and dissolves within minutes from your hands and a few hours from equipment, leaving no residue."
       />
 
       <section className="bg-bg-primary py-24">

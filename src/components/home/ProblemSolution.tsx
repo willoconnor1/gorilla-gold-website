@@ -22,7 +22,7 @@ const features = [
   {
     title: "No Residue. No Buildup.",
     description:
-      "Unlike pine tar or rosin, Gorilla Gold dissolves within hours and never accumulates on your equipment. Clean performance, every time.",
+      "Unlike pine tar or rosin, Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, never accumulating on your gear. Clean performance, every time.",
   },
 ];
 

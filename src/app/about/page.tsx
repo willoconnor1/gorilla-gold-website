@@ -38,13 +38,13 @@ const values = [
     icon: RefreshCw,
     title: "Reusable by Design",
     description:
-      "One Gorilla Gold grip-enhancing towel lasts approximately one month with regular use. Store it sealed between sessions, and it keeps delivering moisture-resistant tackified feel round after round.",
+      "One Gorilla Gold grip-enhancing towel typically lasts a month or more with regular use, and occasional players have reported Gorilla Gold lasting months, even years. Store it sealed between sessions, and it keeps delivering moisture-resistant tackified feel round after round.",
   },
   {
     icon: Shield,
     title: "Competition Approved",
     description:
-      "Gorilla Gold is USGA approved, R&A conforming, and the sole ASA-approved drying agent for softball pitchers. It is also NFHS-approved for high school play.",
+      "Gorilla Gold is USGA approved, R&A conforming, and the sole drying agent allowed for softball pitchers by the NCAA, NFHS, and USA Softball.",
   },
   {
     icon: Users,
@@ -58,20 +58,21 @@ const sports = [
   { name: "Golf", description: "The core market, from tour-level to recreational play" },
   { name: "Pickleball", description: "Fast-growing adoption for hot-weather paddle control" },
   { name: "Tennis", description: "Reduced racquet slipping and lighter grip pressure" },
-  { name: "Softball / Baseball", description: "The sole ASA-approved drying agent for pitchers" },
+  { name: "Softball / Baseball", description: "The sole NCAA, NFHS, and USA Softball-allowed drying agent for pitchers" },
   { name: "Football", description: "Confident ball handling in rain and sweat" },
   { name: "Basketball", description: "Secure grip for shooting and ball-handling drills" },
-  { name: "Bowling / Lawn Bowls", description: "Consistent release in humid conditions" },
+  { name: "Lawn Bowls", description: "Consistent release in humid conditions" },
   { name: "Disc Golf", description: "Reliable disc control in wet and sweaty conditions" },
+  { name: "Track and Field", description: "Hammer, shot put, and throwing events in any weather" },
+  { name: "Gymnastics", description: "Confident grip for bars, rings, and apparatus work" },
+  { name: "Soccer (Goalkeepers)", description: "Greater grip confidence on gloves in wet or adverse conditions" },
   { name: "Active Living", description: "Gardening, fishing, walking poles, pole fitness, weightlifting" },
 ];
 
 const trustSignals = [
   { icon: Shield, label: "USGA Approved" },
   { icon: Shield, label: "R&A Conforming" },
-  { icon: Award, label: "Sole ASA-Approved Drying Agent" },
-  { icon: Award, label: "NFHS Approved" },
-  { icon: Heart, label: "Endorsed by Hank Haney" },
+  { icon: Award, label: "Sole NCAA / NFHS / USA Softball Drying Agent" },
   { icon: Award, label: "Tested by Golf Digest" },
 ];
 
@@ -88,7 +89,7 @@ export default function AboutPage() {
       <PageHero
         label="Our Story"
         h1="About Gorilla Gold"
-        introText="Gorilla Gold is a grip-enhancing towel that helps athletes and active users maintain control in wet, sweaty, and slippery conditions. Built with an all-natural resin formula, every Gorilla Gold towel creates a moisture-resistant tackified feel that dissolves within hours and leaves no residue. The Feel For The Game."
+        introText="Gorilla Gold is a grip-enhancing towel that helps athletes and active users maintain control in wet, sweaty, and slippery conditions. Built with an all-natural resin formula, every Gorilla Gold towel creates a moisture-resistant tackified feel that dissolves within minutes from your hands and a few hours from equipment, leaving no residue. The Feel For The Game."
       />
 
       {/* What Gorilla Gold Is */}
@@ -103,7 +104,7 @@ export default function AboutPage() {
               Gorilla Gold is a grip-enhancing towel infused with an all-natural resin formula. Simply squeeze it against your hands, gloves, or equipment grips to create a moisture-resistant tackified feel that repels sweat, rain, and humidity. The resin adjusts with pressure: a light squeeze delivers subtle tack, while a firm squeeze provides maximum hold.
             </p>
             <p>
-              Each towel is reusable and typically lasts about one month with regular use. The all-natural resin dissolves within hours and leaves no residue on grips, gloves, equipment, or skin. Gorilla Gold is the clean, effective, competition-legal alternative to chalk, rosin, pine tar, and other grip aids.
+              Each towel is reusable and typically lasts a month or more with regular use; occasional players have reported Gorilla Gold lasting months, even years. The all-natural resin dissolves within minutes from your hands and a few hours from equipment, leaving no residue on grips, gloves, gear, or skin. Gorilla Gold is the clean, effective, competition-legal alternative to chalk, rosin, pine tar, and other grip aids.
             </p>
           </div>
         </div>

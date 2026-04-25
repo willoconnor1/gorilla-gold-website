@@ -68,7 +68,7 @@ const steps = [
     icon: SlidersHorizontal,
     title: "Adjust as needed",
     description:
-      "You control how sticky it gets based on pressure alone. There is no single correct amount of tack. Different conditions, different sports, and different personal preferences all call for different levels. Experiment during your first few uses to find what feels right for you.",
+      "Gorilla Gold is not a one-time application. Think of it as a tool you adjust throughout your round, game, or event. Light pressure delivers subtle tack; firmer pressure delivers more grip. Different conditions, different sports, and different personal preferences all call for different levels. Experiment during your first few uses to find what feels right for you.",
     tip: "Think of it like dialing in your grip stickiness with pressure. More pressure means more tack, less pressure means less tack.",
   },
   {
@@ -83,12 +83,6 @@ const steps = [
 
 const howItWorks = [
   {
-    icon: Droplets,
-    title: "Cleans oil and sweat off the grip",
-    description:
-      "The towel material absorbs surface oils and perspiration, removing the slippery layer that causes grip failure.",
-  },
-  {
     icon: ShieldCheck,
     title: "Leaves a light tacky, moisture-repelling layer",
     description:
@@ -99,6 +93,12 @@ const howItWorks = [
     title: "Helps you grip without squeezing as hard",
     description:
       "Increased surface friction means less grip pressure is needed. This reduces hand fatigue, forearm tension, and the over-gripping that leads to inconsistent performance.",
+  },
+  {
+    icon: Droplets,
+    title: "Cleans oil and sweat off the grip",
+    description:
+      "Although it was not developed as a grip cleaner, the towel will absorb surface oils and dirt, removing the slippery layer that causes grip failure.",
   },
 ];
 
@@ -116,7 +116,7 @@ const commonMistakes = [
   {
     mistake: "Expecting one application to last all day",
     correction:
-      "The resin dissolves naturally within hours. This is by design: it prevents residue buildup on your equipment. Plan to reapply during your round or match as needed.",
+      "The resin dissipates from your hands within minutes, and longer for equipment. This is by design: it prevents residue buildup on your equipment. Plan to reapply as often as needed.",
   },
 ];
 

@@ -11,10 +11,12 @@ const SPORT_ORDER = [
   "Tennis",
   "Pickleball",
   "Football",
+  "Gymnastics",
+  "Soccer",
   "Active Living",
 ];
 
-const FEATURED_IDS = ["hank-haney", "jeff-patterson"];
+const FEATURED_IDS = ["jeff-patterson", "andrew-cohn"];
 
 const containerVariants = {
   hidden: { opacity: 0 },

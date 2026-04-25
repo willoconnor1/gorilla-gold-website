@@ -24,12 +24,12 @@ export const sweatyHandsPickleballSolutions: BlogPost = {
     {
       heading: "Gorilla Gold for Pickleball",
       content:
-        "Gorilla Gold's all-natural resin formula is purpose-built for exactly this problem. The grip-enhancing towel creates a moisture-resistant tackified feel that repels sweat rather than absorbing it. This is the fundamental difference between Gorilla Gold and absorbent products like chalk or overgrips. While absorbent solutions lose effectiveness as they become saturated, Gorilla Gold's resin continues to provide tack regardless of how much you sweat. Apply it to your paddle grip, your bare hands, or both. The effect lasts through multiple games, and reapplication takes only a few seconds between matches. The All-Sport version of Gorilla Gold is designed specifically for racquet and paddle sports, making it the ideal choice for pickleball players. It is legal for all pickleball competition, including tournament play, with no restrictions.",
+        "Gorilla Gold's all-natural resin formula is purpose-built for exactly this problem. The grip-enhancing towel creates a moisture-resistant tackified feel that repels sweat rather than absorbing it. This is the fundamental difference between Gorilla Gold and absorbent products like chalk or overgrips. While absorbent solutions lose effectiveness as they become saturated, Gorilla Gold's resin continues to provide tack regardless of how much you sweat. Towel dry your grip between games, then apply Gorilla Gold to your paddle grip, your dry hands, or both. The effect lasts through multiple games, and reapplication takes only a few seconds between matches. The Racquet Sports version of Gorilla Gold is made specifically for tennis, pickleball, squash, and padel players, making it the ideal choice. It is legal for all pickleball competition, including tournament play, with no restrictions.",
     },
     {
       heading: "How to Apply",
       content:
-        "Using Gorilla Gold for pickleball is simple and takes only moments. Before your first game, remove the grip-enhancing towel from its sealed pouch and squeeze it against your dominant hand for three to four seconds, using medium pressure. If you play with a two-handed backhand, apply to both hands. You can also apply directly to the paddle grip by wrapping the towel around the handle and squeezing. Start with moderate pressure until you learn your preferred tack level, then adjust up or down. Between games, reapply with a quick squeeze. The all-natural resin formula creates a moisture-resistant tackified feel that does not build up or leave permanent residue on your paddle handle. After your session, return the towel to its sealed pouch. One reusable towel lasts approximately one month with regular play.",
+        "Using Gorilla Gold for pickleball is simple and takes only moments. Before your first game, towel dry your hands or grip if wet, remove the grip-enhancing towel from its sealed pouch and squeeze it against your dominant hand for three to four seconds, using medium pressure. If you play with a two-handed backhand, apply to both hands. You can also apply directly to the dry paddle grip by wrapping the towel around the handle and squeezing. Start with moderate pressure until you learn your preferred tack level, then adjust up or down. Between games, reapply with a quick squeeze. The all-natural resin formula creates a moisture-resistant tackified feel that does not build up or leave permanent residue on your paddle handle. After your session, return the towel to its sealed pouch. One reusable towel typically lasts a month or more with regular play, and occasional players have reported Gorilla Gold lasting months, even years.",
     },
     {
       heading: "Tips for Hot Weather Play",
@@ -57,11 +57,11 @@ export const sweatyHandsPickleballSolutions: BlogPost = {
       id: "pickleball-paddle-damage",
       question: "Will Gorilla Gold damage my pickleball paddle grip?",
       answer:
-        "No. Gorilla Gold dissolves within hours and leaves no permanent residue on paddle grips, handles, or surfaces. It will not damage, discolor, or degrade any paddle material.",
+        "No. Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, leaving no permanent residue on paddle grips, handles, or surfaces. It will not damage, discolor, or degrade any paddle material.",
       category: "Usage",
     },
   ],
-  relatedProducts: ["gorilla-gold-all-sport"],
+  relatedProducts: ["gorilla-gold-racquet-sports", "gorilla-gold-all-sport"],
   relatedCategories: [
     {
       label: "Pickleball Grip Aid",

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
 };
 
-const FEATURED_IDS = ["hank-haney", "jeff-patterson"];
+const FEATURED_IDS = ["jeff-patterson", "andrew-cohn"];
 
 export default function TestimonialsPage() {
   const featuredTestimonials = FEATURED_IDS.map((id) =>

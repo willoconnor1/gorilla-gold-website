@@ -15,29 +15,41 @@ const products = [
     sports: ["Golf"],
     color: "from-green-500/10 to-transparent",
     image: "/images/gorilla-gold-golf.webp",
-    alt: "Gorilla Gold Golf grip-enhancing towel 3-pack with Hank Haney endorsement",
+    alt: "Gorilla Gold Golf grip-enhancing towel 3-pack",
   },
   {
     name: "Gorilla Gold All-Sport",
     description:
-      "Universal grip-enhancing towel for pickleball, tennis, football, basketball, and all grip-dependent activities.",
+      "Universal grip-enhancing towel for football, basketball, lawn bowls, gymnastics, soccer goalkeepers, and all grip-dependent activities.",
     price: "From $21.00",
     href: "https://store.gorillagold.com",
-    sports: ["Pickleball", "Tennis", "Football", "Basketball"],
+    sports: ["Football", "Basketball", "Lawn Bowls"],
     color: "from-accent/10 to-transparent",
     image: "/images/gorilla-gold-all-sport.webp",
-    alt: "Gorilla Gold All-Sport grip-enhancing towel 3-pack for all sports formula",
+    alt: "Gorilla Gold All-Sport grip-enhancing towel 3-pack for all sports",
+  },
+  {
+    name: "Gorilla Gold Racquet Sports",
+    description:
+      "Made for tennis, pickleball, squash, and padel players. (Placeholder image and pricing — pending Tom confirmation.)",
+    price: "From $21.00",
+    href: "https://store.gorillagold.com",
+    sports: ["Tennis", "Pickleball", "Squash", "Padel"],
+    color: "from-blue-500/10 to-transparent",
+    // TODO: Tom — replace with real Racquet Sports product photo when available.
+    image: "/images/gorilla-gold-all-sport.webp",
+    alt: "Gorilla Gold Racquet Sports grip-enhancing towel (placeholder image)",
   },
   {
     name: "Gorilla Gold Softball / Baseball",
     description:
-      "The sole ASA-approved drying agent for pitchers. NFHS approved for high school competition.",
+      "The sole NCAA, NFHS, and USA Softball-allowed drying agent for softball pitchers to use on the mound.",
     price: "From $21.00",
     href: "https://store.gorillagold.com",
     sports: ["Softball", "Baseball"],
     color: "from-red-500/10 to-transparent",
     image: "/images/gorilla-gold-baseball.webp",
-    alt: "Gorilla Gold Softball Baseball grip-enhancing towel 3-pack ASA NCAA NFHS approved",
+    alt: "Gorilla Gold Softball Baseball grip-enhancing towel 3-pack NCAA NFHS USA Softball allowed",
   },
 ];
 
@@ -54,8 +66,8 @@ export function FeaturedProducts() {
               perfect grip.
             </h2>
             <p className="mt-4 max-w-md text-base text-text-secondary">
-              Available in Golf, All-Sport, and Softball/Baseball versions.
-              Same all-natural resin formula, tailored for your game.
+              Available in Golf, All-Sport, Racquet Sports, and Softball/Baseball
+              versions. Same all-natural resin formula, tailored for your game.
             </p>
           </div>
           <Button href="https://store.gorillagold.com" variant="primary" arrow>

@@ -8,7 +8,7 @@ export const categories: Record<string, CategoryPage> = {
     metaDescription:
       "Gorilla Gold is a reusable grip-enhancing towel with an all-natural resin formula. USGA approved. Stops sweaty hands from ruining your golf game.",
     introText:
-      "Gorilla Gold is a grip-enhancing towel designed to give golfers confident control in sweaty, humid, and wet conditions. The all-natural resin formula creates a moisture-resistant tackified feel on your hands and gloves, so you can maintain a relaxed grip without squeezing harder. USGA approved and R&A conforming, Gorilla Gold is trusted by teaching pros, club champions, and weekend players alike.",
+      "Gorilla Gold is a grip-enhancing towel designed to give golfers confident control in sweaty, humid, and wet conditions. The all-natural resin formula creates a moisture-resistant tackified feel on your hands and gloves, so you can maintain a relaxed grip without squeezing harder. USGA approved and R&A conforming, Gorilla Gold is trusted by teaching pros, club champions, and weekend players alike. As Golf Digest put it: \"... better than an umbrella.\"",
     problemStatement:
       "Sweaty hands cause grip slippage, leading to compensatory over-gripping that creates tension, fatigue, and inconsistency throughout your round. In hot and humid conditions, the problem compounds with every hole. Standard towels dry your hands momentarily, but perspiration returns within seconds. You need a solution that creates lasting, moisture-resistant tack without changing how you play.",
     sport: "Golf",
@@ -19,7 +19,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         title: "Sweaty Hands on the Course",
         description:
-          "Gorilla Gold creates a moisture-resistant tackified feel that counteracts perspiration. Apply to your hands or glove before each shot for consistent grip pressure all round long.",
+          "When applied to a dry grip, Gorilla Gold creates a moisture-resistant tackified feel that counteracts perspiration. Apply to your hands or glove before each shot for consistent grip pressure all round long.",
         icon: "Droplets",
       },
       {
@@ -53,7 +53,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Residue and mess",
         gorillaGold:
-          "Dissolves within hours. No buildup on grips or equipment",
+          "Dissolves within minutes from your hands and a few hours from equipment. No buildup on grips or gear",
         alternative:
           "Leaves chalky residue on grips, clothing, and bag. Requires cleanup",
         alternativeName: "Chalk",
@@ -68,7 +68,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Convenience and reusability",
         gorillaGold:
-          "Reusable towel lasts approximately one month with regular play. Fits in any golf bag pocket",
+          "Reusable towel can last for months depending on the frequency of play. Fits in any golf bag pocket",
         alternative:
           "Single-use application. Must reapply frequently and carry additional supplies",
         alternativeName: "Grip Spray",
@@ -79,7 +79,7 @@ export const categories: Record<string, CategoryPage> = {
         id: "golf-apply",
         question: "How do I apply Gorilla Gold to my golf grips?",
         answer:
-          "Squeeze the grip-enhancing towel directly onto your hands, glove, or grip surface. Apply light pressure for subtle tack, or squeeze harder for more grip in very wet conditions. Reapply between holes as needed.",
+          "Towel dry your hands or grip if wet. Then squeeze the grip-enhancing towel directly onto your hands, glove, or grip surface. Apply light pressure for subtle tack, or squeeze harder for more grip in very wet conditions. Reapply between holes as needed.",
         category: "Golf",
       },
       {
@@ -93,7 +93,7 @@ export const categories: Record<string, CategoryPage> = {
         id: "golf-glove-safe",
         question: "Will Gorilla Gold damage my golf glove?",
         answer:
-          "No. Gorilla Gold dissolves within hours and leaves no permanent residue. It enhances glove tack without degrading leather or synthetic materials.",
+          "No. While Gorilla Gold dissolves quickly from hands, the tack remains on gloves longer but leaves no trace residue. It enhances glove-to-grip feel without degrading leather or synthetic materials.",
         category: "Golf",
       },
       {
@@ -106,7 +106,6 @@ export const categories: Record<string, CategoryPage> = {
       },
     ],
     testimonialIds: [
-      "hank-haney",
       "jeff-patterson",
       "andrew-cohn",
       "denise-geieron",
@@ -161,7 +160,7 @@ export const categories: Record<string, CategoryPage> = {
     metaDescription:
       "Gorilla Gold grip-enhancing towel stops paddle slipping in hot, humid pickleball conditions. All-natural resin formula. Reusable. No mess.",
     introText:
-      "Gorilla Gold is a grip-enhancing towel that keeps pickleball players in control when heat and humidity make paddle grips slick. The all-natural resin formula creates a moisture-resistant tackified feel on your hands and paddle grip, preventing the dangerous slippage that leads to mishits and lost rallies. Reusable and mess-free, one towel lasts weeks of regular play.",
+      "Gorilla Gold is a grip-enhancing towel that keeps pickleball players in control when heat and humidity make paddle grips slick. The all-natural resin formula creates a moisture-resistant tackified feel on your hands and paddle grip, preventing the dangerous slippage that leads to mishits and lost rallies. Reusable and mess-free, one towel typically lasts a month or more of regular play.",
     problemStatement:
       "Hot weather pickleball turns paddle grips into slip hazards. Sweat saturates overgrips within minutes, forcing players to squeeze harder and lose touch on dinks and resets. Over-gripping leads to arm fatigue, elbow strain, and diminished control at the net. Standard wristbands and towels only buy you a few points before the moisture returns.",
     sport: "Pickleball",
@@ -175,7 +174,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         title: "Tournament Play in Heat",
         description:
-          "Back-to-back tournament matches in summer heat demand consistent grip. Apply Gorilla Gold between games for confident paddle control through every bracket round.",
+          "Back-to-back tournament matches in summer heat demand consistent grip. Towel dry your grip between games, then apply Gorilla Gold for confident paddle control through every bracket round.",
         icon: "Trophy",
       },
       {
@@ -205,7 +204,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Mess and cleanup",
         gorillaGold:
-          "All-natural resin dissolves within hours. No residue on hands, paddle, or clothing",
+          "All-natural resin dissolves within minutes from your hands and a few hours from equipment. No residue on hands, paddle, or clothing",
         alternative:
           "Leaves white powder on hands, paddle, and court surface",
         alternativeName: "Chalk",
@@ -213,7 +212,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Works on bare hands",
         gorillaGold:
-          "Apply directly to bare hands or paddle grip. Works both ways for maximum flexibility",
+          "Apply to dry bare hands or paddle grip. Works both ways for maximum flexibility",
         alternative:
           "Only adds bulk to the handle. Does nothing for sweaty palms themselves",
         alternativeName: "Overgrip",
@@ -224,14 +223,14 @@ export const categories: Record<string, CategoryPage> = {
         id: "pickleball-apply",
         question: "How do I use Gorilla Gold for pickleball?",
         answer:
-          "Squeeze the grip-enhancing towel onto your paddle grip, your bare hands, or both. Light pressure gives subtle tack; firmer pressure provides more grip for extremely sweaty conditions. Reapply during changeovers or between games.",
+          "Squeeze the grip-enhancing towel onto your dry paddle grip, your bare hands, or both. Light pressure gives subtle tack; firmer pressure provides more grip for extremely sweaty conditions. Reapply during changeovers or between games.",
         category: "Pickleball",
       },
       {
         id: "pickleball-paddle-safe",
         question: "Will Gorilla Gold damage my pickleball paddle grip?",
         answer:
-          "No. Gorilla Gold dissolves within hours and leaves no permanent residue or buildup on paddle grips. It is safe for all grip materials including cushion grips and perforated overgrips.",
+          "No. Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, leaving no permanent residue or buildup on paddle grips. It is safe for all grip materials including cushion grips and perforated overgrips.",
         category: "Pickleball",
       },
       {
@@ -239,7 +238,7 @@ export const categories: Record<string, CategoryPage> = {
         question:
           "Which Gorilla Gold version should pickleball players use?",
         answer:
-          "Pickleball players should use Gorilla Gold All-Sport, which is formulated for universal use across racquet sports and paddle sports. The same all-natural resin formula provides the moisture-resistant tackified feel you need on the court.",
+          "Pickleball players should use Gorilla Gold Racquet Sports, which is made specifically for tennis, pickleball, squash, and padel players. The all-natural resin formula provides the moisture-resistant tackified feel you need on the court.",
         category: "Pickleball",
       },
       {
@@ -292,7 +291,7 @@ export const categories: Record<string, CategoryPage> = {
     metaDescription:
       "Gorilla Gold grip-enhancing towel gives tennis players confident racquet control in humid, sweaty conditions. All-natural resin. Reusable. No residue.",
     introText:
-      "Gorilla Gold is a grip-enhancing towel that gives tennis players reliable racquet control when humidity and sweat make handles dangerously slick. The all-natural resin formula creates a moisture-resistant tackified feel that outlasts conventional overgrips and eliminates the need for constant re-wrapping. Daily players and competitive athletes alike rely on Gorilla Gold for consistent performance in the toughest conditions.",
+      "Meet the end of slipping grip. Gorilla Gold is a grip-enhancing towel that gives tennis players reliable racquet control when humidity and sweat make handles dangerously slick. The all-natural resin formula creates a moisture-resistant tackified feel that outlasts conventional overgrips and eliminates the need for constant re-wrapping. Daily players and competitive athletes alike rely on Gorilla Gold for consistent performance in the toughest conditions.",
     problemStatement:
       "Humid conditions turn tennis into a grip management exercise. Overgrips saturate with sweat within a set, forcing players to carry spares and interrupt their rhythm for mid-match changes. The constant distraction of a slippery racquet leads to over-gripping, which causes wrist fatigue, tennis elbow aggravation, and loss of touch on volleys and drop shots.",
     sport: "Tennis",
@@ -303,7 +302,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         title: "Humid Summer Matches",
         description:
-          "Humidity saturates overgrips within minutes. Gorilla Gold's all-natural resin formula creates a moisture barrier that maintains tack through full sets and tiebreakers.",
+          "Humidity saturates overgrips within minutes. When applied to dry hands or grips, Gorilla Gold's all-natural resin formula creates a moisture barrier that maintains tack through full sets and tiebreakers.",
         icon: "Droplets",
       },
       {
@@ -313,9 +312,15 @@ export const categories: Record<string, CategoryPage> = {
         icon: "Shield",
       },
       {
+        title: "Allowed for Tournament Play",
+        description:
+          "There are no restrictions on Gorilla Gold in pickleball, tennis, or other racquet sport competitions. Apply with confidence at every level of play.",
+        icon: "Trophy",
+      },
+      {
         title: "Daily Practice Sessions",
         description:
-          "Players who hit daily go through overgrips at an unsustainable rate. One reusable Gorilla Gold towel lasts weeks, saving money while delivering superior grip consistency.",
+          "Players who hit daily go through overgrips at an unsustainable rate. One reusable Gorilla Gold towel can stay effective for months, saving money while delivering superior grip consistency.",
         icon: "Zap",
       },
       {
@@ -329,7 +334,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Longevity",
         gorillaGold:
-          "One reusable towel lasts weeks of daily play. Far more cost-effective over time",
+          "One reusable towel can stay effective for months. Far more cost-effective over time",
         alternative:
           "Must be replaced every 1-3 sessions. Ongoing expense adds up quickly",
         alternativeName: "Overgrip",
@@ -337,7 +342,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Mid-match maintenance",
         gorillaGold:
-          "Quick squeeze on changeovers. No tools, no wrapping, no downtime",
+          "Dry your grip and hands then apply each changeover. No tools, no wrapping, no downtimes",
         alternative:
           "Full re-wrap required. Disrupts rhythm and focus during competitive play",
         alternativeName: "Overgrip",
@@ -345,7 +350,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Sweat management",
         gorillaGold:
-          "Moisture-resistant tackified feel actively repels sweat. Works on hands and grip surfaces",
+          "Works on dry hands and dry grip surfaces. Moisture-resistant tackified feel actively repels sweat",
         alternative:
           "Absorbs sweat until saturated, then becomes part of the problem",
         alternativeName: "Overgrip",
@@ -364,7 +369,7 @@ export const categories: Record<string, CategoryPage> = {
         id: "tennis-how-to-use",
         question: "How do tennis players use Gorilla Gold?",
         answer:
-          "Squeeze the grip-enhancing towel onto your racquet grip, your playing hand, or both during changeovers. Adjust pressure to control the level of tack. Light squeeze for baseline play, firmer squeeze for humid or rainy conditions.",
+          "Squeeze the grip-enhancing towel onto your dry racquet grip, playing hand, or both during changeovers. Adjust pressure to control the level of tack. Light squeeze for baseline play, firmer squeeze for humid or rainy conditions.",
         category: "Tennis",
       },
       {
@@ -378,14 +383,14 @@ export const categories: Record<string, CategoryPage> = {
         id: "tennis-elbow-help",
         question: "Does Gorilla Gold help with tennis elbow?",
         answer:
-          "Many tennis players report that the moisture-resistant tackified feel reduces their grip pressure, which in turn reduces strain on the forearm and elbow. While Gorilla Gold is not a medical device, the reduced over-gripping can contribute to less aggravation of tennis elbow symptoms.",
+          "Many tennis players report that the moisture-resistant tackified feel reduces their grip pressure, which in turn reduces strain on the forearm and elbow. While Gorilla Gold is not a medical device, the reduced over-gripping can contribute to less aggravation of tennis elbow, carpal tunnel, arthritis, and neuropathy symptoms.",
         category: "Tennis",
       },
       {
         id: "tennis-racquet-safe",
         question: "Is Gorilla Gold safe for all racquet types?",
         answer:
-          "Yes. Gorilla Gold dissolves within hours and leaves no residue or buildup on any racquet grip material, including leather, synthetic, and cushion grips.",
+          "Yes. Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, leaving no residue or buildup on any racquet grip material, including leather, synthetic, and cushion grips.",
         category: "Tennis",
       },
     ],
@@ -486,7 +491,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Convenience in wet conditions",
         gorillaGold:
-          "Quick application, even with wet hands. No drying required first. Reusable throughout the round",
+          "It's recommended that you towel dry your hands and grip with a golf towel and then apply for better contact and control. Reusable throughout the round",
         alternative:
           "Must dry hands first for effective application. Washes off quickly in rain",
         alternativeName: "Grip Spray",
@@ -512,13 +517,12 @@ export const categories: Record<string, CategoryPage> = {
         question:
           "How often should I reapply Gorilla Gold during a wet round?",
         answer:
-          "In light rain or heavy humidity, one application can last several holes. In steady or heavy rain, reapply every few holes or whenever you feel grip confidence declining. The towel is reusable, so frequent application is easy and practical.",
+          "In light rain or heavy humidity, towel dry your hands and grip with a golf or moisture absorbing towel, then apply Gorilla Gold. One application can last several holes. Reapply whenever you feel your grip confidence declining. The towel is reusable, so frequent application is easy and practical.",
         category: "Wet Weather",
       },
     ],
     testimonialIds: [
       "jeff-patterson",
-      "hank-haney",
       "andrew-cohn",
       "dallas-golfer",
     ],
@@ -621,7 +625,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Equipment impact",
         gorillaGold:
-          "Dissolves within hours. No residue buildup on grips, handles, or gloves",
+          "Dissolves within minutes from your hands and a few hours from equipment. No residue buildup on grips, handles, or gloves",
         alternative:
           "Sticky residue accumulates on equipment over time. Difficult to remove completely",
         alternativeName: "Pine Tar",
@@ -655,7 +659,7 @@ export const categories: Record<string, CategoryPage> = {
         id: "sweaty-safe-daily",
         question: "Is Gorilla Gold safe for daily use on my hands?",
         answer:
-          "Yes. Gorilla Gold is made with an all-natural resin formula that contains no synthetic chemicals or irritants. It dissolves within hours and washes off easily. Daily use is safe and will not cause skin irritation or buildup.",
+          "Yes. Gorilla Gold is made with all-natural resins and contains no synthetic chemicals or potential irritants. It dissolves within minutes from your hands without washing. For many athletes, simply applying the towel to their hands gives them the grip confidence they desire.",
         category: "Sweaty Hands",
       },
     ],
@@ -715,7 +719,7 @@ export const categories: Record<string, CategoryPage> = {
     metaDescription:
       "Gorilla Gold grip-enhancing towel improves grip for gardening, fishing, walking poles, weightlifting, and everyday active living. All-natural resin formula.",
     introText:
-      "Gorilla Gold is a grip-enhancing towel that extends beyond the playing field into everyday active living. The all-natural resin formula creates a moisture-resistant tackified feel that helps gardeners, anglers, hikers, weightlifters, and anyone who needs confident grip during hands-on activities. Reusable and chemical-free, Gorilla Gold is as practical in the garden shed as it is in the gym bag.",
+      "Gorilla Gold is a grip-enhancing towel that extends beyond the playing field into everyday active living. Grip confidence is critical for mechanics. The all-natural resin formula creates a moisture-resistant tackified feel that helps gardeners, anglers, hikers, weightlifters, and anyone who needs confident grip during hands-on activities. Reusable and chemical-free, Gorilla Gold is as practical in the garden shed as it is in the gym bag.",
     problemStatement:
       "Grip challenges are not limited to competitive sports. Gardeners struggle with wet tool handles on dewy mornings. Anglers lose control of rods during long, humid sessions. Hikers with walking poles need reliable grip on slippery descents. Weightlifters and gymnasts risk injury when hands become slick under heavy loads. These everyday activities demand the same grip confidence that athletes expect, and standard solutions like gloves alone often fall short.",
     sport: "Active Living",
@@ -765,7 +769,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Cleanup",
         gorillaGold:
-          "All-natural resin dissolves within hours. No residue on tools, equipment, or hands",
+          "All-natural resin dissolves within minutes from your hands and a few hours from equipment. No residue on tools, equipment, or hands",
         alternative:
           "Liquid chalk leaves white residue on everything. Requires scrubbing to clean equipment",
         alternativeName: "Chalk",
@@ -791,7 +795,7 @@ export const categories: Record<string, CategoryPage> = {
         question:
           "Is Gorilla Gold a good alternative to gym chalk for weightlifting?",
         answer:
-          "Many lifters prefer Gorilla Gold because it provides secure grip without the mess of chalk. The all-natural resin formula creates a moisture-resistant tackified feel on barbells and dumbbells, and it dissolves within hours with no residue left on equipment.",
+          "Many lifters prefer Gorilla Gold because it provides secure grip without the mess of chalk. The all-natural resin formula creates a moisture-resistant tackified feel on barbells and dumbbells, and it dissolves within minutes from your hands and a few hours from equipment with no residue left behind.",
         category: "Active Living",
       },
       {
@@ -858,7 +862,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         title: "Competition-Legal Options",
         description:
-          "Not all grip aids are legal in every sport. Gorilla Gold is USGA approved, R&A conforming, and ASA approved, making it one of the most broadly competition-legal grip aids available.",
+          "Not all grip aids are legal in every sport. Gorilla Gold is USGA approved, R&A conforming, and is even allowed for softball pitchers by the NCAA, NFHS, and USA Softball, making it one of the most broadly competition-legal grip aids available.",
         icon: "Trophy",
       },
       {
@@ -872,7 +876,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Mess and residue",
         gorillaGold:
-          "Dissolves within hours. No residue on hands, equipment, or clothing",
+          "Gorilla Gold doesn't leave a lingering sticky feel. You control the amount of tack you want. It dissolves within minutes from your hands and longer from grips, gloves, and equipment",
         alternative:
           "Extremely sticky. Difficult to remove from hands, bats, and clothing. Stains fabric permanently",
         alternativeName: "Pine Tar",
@@ -896,7 +900,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Reusability and cost",
         gorillaGold:
-          "Reusable towel lasts approximately one month. 3-pack costs $21.00. Exceptional value over time",
+          "Reusable towel will typically last an everyday athlete a month or more. Occasional players have reported Gorilla Gold lasting months, even years. A 3-pack is under $25.00, an exceptional value over time",
         alternative:
           "Single-use or limited-use application. Must repurchase frequently. Higher long-term cost",
         alternativeName: "Grip Spray",
@@ -914,7 +918,7 @@ export const categories: Record<string, CategoryPage> = {
         id: "compare-pine-tar",
         question: "How does Gorilla Gold compare to pine tar?",
         answer:
-          "Pine tar provides strong tack but creates significant mess: it stains clothing, accumulates on equipment, and is difficult to remove from hands. Gorilla Gold creates comparable moisture-resistant tack using an all-natural resin formula that dissolves within hours and leaves no permanent residue.",
+          "Pine tar provides strong tack but creates significant mess: it stains clothing, accumulates on equipment, and is difficult to remove from hands. Gorilla Gold creates comparable moisture-resistant tack using an all-natural resin formula that dissolves within minutes from your hands and a few hours from equipment, leaving no permanent residue.",
         category: "Comparison",
       },
       {
@@ -935,12 +939,11 @@ export const categories: Record<string, CategoryPage> = {
         id: "compare-all-natural",
         question: "Is Gorilla Gold really all-natural?",
         answer:
-          "Yes. Gorilla Gold is made with an all-natural resin formula. It contains no synthetic chemicals, fragrances, or adhesives. It is safe for direct skin contact, dissolves within hours, and washes off hands easily with soap and water.",
+          "Yes. Gorilla Gold is made with an all-natural resin formula. It contains no synthetic chemicals, fragrances, or adhesives. It is safe for direct skin contact, dissolves within minutes from your hands, and washes off easily with soap and water.",
         category: "Comparison",
       },
     ],
     testimonialIds: [
-      "hank-haney",
       "shake-n-blake",
       "hammer-thrower",
       "competitive-athlete",
@@ -967,7 +970,7 @@ export const categories: Record<string, CategoryPage> = {
         label: "Softball Grip Aid",
         href: "/softball-grip-aid",
         description:
-          "Gorilla Gold for softball and baseball, including ASA approval details.",
+          "Gorilla Gold for softball and baseball, including NCAA, NFHS, and USA Softball approval details.",
       },
     ],
     relatedContent: [
@@ -991,9 +994,9 @@ export const categories: Record<string, CategoryPage> = {
     title: "Best Grip Aid for Softball and Baseball | Gorilla Gold",
     h1: "Best Grip Aid for Softball and Baseball",
     metaDescription:
-      "Gorilla Gold is the sole ASA-approved drying agent for softball. Grip-enhancing towel with all-natural resin formula for pitchers, hitters, and fielders.",
+      "Gorilla Gold is the sole NCAA, NFHS, and USA Softball-allowed drying agent for softball pitchers. Grip-enhancing towel with all-natural resin formula.",
     introText:
-      "Gorilla Gold is a grip-enhancing towel and the sole ASA-approved drying agent for softball pitchers. The all-natural resin formula creates a moisture-resistant tackified feel that gives pitchers precise ball control, hitters a relaxed bat grip for faster swings, and fielders confident glove-hand traction. Reusable and NFHS-approved, Gorilla Gold is legal at every level of play from youth leagues to championship tournaments.",
+      "Gorilla Gold is a grip-enhancing towel and the sole NCAA, USA Softball, and NFHS-allowed drying agent for softball pitchers to use on the mound. The all-natural resin formula creates a moisture-resistant tackified feel that gives pitchers precise ball control, hitters a relaxed bat grip for faster swings, and fielders confident glove-hand traction. Reusable, Gorilla Gold is legal at every level of play from youth leagues to championship tournaments.",
     problemStatement:
       "Softball and baseball demand precise grip under pressure. Pitchers need tactile control for spin and placement. Hitters need relaxed bat grip for bat speed without risking the bat leaving their hands. Fielders need secure glove-hand grip for catches in rain and humidity. Pine tar creates mess and legality issues. Rosin bags fail in wet conditions. Players need a grip solution that is clean, effective in moisture, and approved for competition use.",
     sport: "Softball",
@@ -1019,7 +1022,7 @@ export const categories: Record<string, CategoryPage> = {
       {
         title: "Youth and High School Compliance",
         description:
-          "Gorilla Gold is NFHS-approved for high school softball and baseball. Coaches can recommend it with confidence knowing it meets every rule requirement at the prep level.",
+          "Gorilla Gold is NFHS-allowed for high school softball and baseball. Coaches can recommend it with confidence knowing it meets every rule requirement at the prep level.",
         icon: "Shield",
       },
     ],
@@ -1027,15 +1030,15 @@ export const categories: Record<string, CategoryPage> = {
       {
         feature: "Competition legality",
         gorillaGold:
-          "Sole ASA-approved drying agent. NFHS-approved for high school play. Legal at all levels",
+          "The sole NCAA, USA Softball, and NFHS-allowed drying agent for softball pitchers to use on the mound. Legal at all levels",
         alternative:
-          "Banned or restricted in many leagues and age groups. Creates liability for coaches",
-        alternativeName: "Pine Tar",
+          "Provides dry grip only when conditions are dry. Completely ineffective when wet",
+        alternativeName: "Rosin Bag",
       },
       {
         feature: "Mess and equipment damage",
         gorillaGold:
-          "Dissolves within hours. No residue on bats, balls, gloves, or uniforms",
+          "A clean alternative to pine tar for batters. No residue on bats, balls, gloves, or uniforms. Dissolves within minutes from your hands and a few hours from equipment",
         alternative:
           "Permanently stains uniforms and bat tape. Accumulates on bat handles. Transfers to balls",
         alternativeName: "Pine Tar",
@@ -1060,16 +1063,16 @@ export const categories: Record<string, CategoryPage> = {
     faqs: [
       {
         id: "softball-asa",
-        question: "Is Gorilla Gold approved for ASA softball?",
+        question: "Is Gorilla Gold allowed for USA Softball?",
         answer:
-          "Yes. Gorilla Gold is the sole ASA-approved drying agent for softball. It is also NFHS-approved for high school softball and baseball. You can use it at every level of competition with full confidence.",
+          "Yes. Gorilla Gold is the sole allowed drying agent for USA Softball, NCAA, and NFHS softball. You can use it at every level of competition with full confidence.",
         category: "Softball",
       },
       {
         id: "softball-pitching",
         question: "How do softball pitchers use Gorilla Gold?",
         answer:
-          "Pitchers squeeze the grip-enhancing towel onto their pitching fingers between innings or between batters. The moisture-resistant tackified feel improves finger-to-ball contact for better spin control and pitch placement. Apply lighter for subtle tack or harder for wet conditions.",
+          "Pitchers typically squeeze the grip-enhancing towel onto their fingers between batters or pitches. The moisture-resistant tackified feel improves finger-to-ball contact for better spin control and pitch placement. Apply lighter for subtle tack or harder for wet conditions.",
         category: "Softball",
       },
       {
@@ -1081,9 +1084,9 @@ export const categories: Record<string, CategoryPage> = {
       },
       {
         id: "softball-vs-pine-tar",
-        question: "Why choose Gorilla Gold over pine tar for baseball?",
+        question: "Why choose Gorilla Gold over pine tar for baseball bats?",
         answer:
-          "Pine tar creates permanent, messy residue on bats, gloves, and uniforms. It is banned or restricted in many leagues. Gorilla Gold provides comparable moisture-resistant tack with none of the mess. It dissolves within hours, leaves no residue, and is approved for competition at all levels.",
+          "Pine tar creates permanent, messy residue on bats, gloves, and uniforms. It is banned or restricted in many leagues. Gorilla Gold provides comparable moisture-resistant tack with none of the mess. It dissolves within minutes from your hands and a few hours from equipment, leaves no residue on bats, and is approved for competition at all levels.",
         category: "Softball",
       },
       {
@@ -1129,7 +1132,7 @@ export const categories: Record<string, CategoryPage> = {
         label: "FAQ: Gorilla Gold Grip-Enhancing Towel",
         href: "/faq",
         description:
-          "Answers about ASA approval, usage, and Gorilla Gold performance for softball and baseball.",
+          "Answers about NCAA, NFHS, and USA Softball approval, usage, and Gorilla Gold performance for softball and baseball.",
       },
       {
         label: "Active Living Grip Solutions",

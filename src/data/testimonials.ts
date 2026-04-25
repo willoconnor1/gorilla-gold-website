@@ -2,14 +2,6 @@ import { Testimonial } from "@/types";
 
 export const testimonials: Testimonial[] = [
   {
-    id: "hank-haney",
-    name: "Hank Haney",
-    title: "Golf Instructor, taught Tiger Woods and 200+ touring pros",
-    quote: "Gorilla Gold should be in every golfer's bag.",
-    sport: "Golf",
-    rating: 5,
-  },
-  {
     id: "jeff-patterson",
     name: "Jeff Patterson",
     title: "Golf Digest",

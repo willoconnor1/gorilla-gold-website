@@ -24,12 +24,12 @@ export const gorillaGoldVsRosin: BlogPost = {
     {
       heading: "How Gorilla Gold Works",
       content:
-        "Gorilla Gold is a grip-enhancing towel impregnated with an all-natural resin formula that creates a moisture-resistant tackified feel. Instead of absorbing moisture like rosin, it actively repels it. You simply squeeze the towel against your hands, gloves, or equipment grip with varying pressure to control the level of tack. Light pressure delivers subtle grip enhancement; firm pressure produces maximum tackiness. The resin dissolves within hours and leaves no permanent residue on your equipment. One reusable towel lasts approximately one month for golfers playing two to three times per week, making it far more cost-effective and convenient than repeatedly purchasing rosin bags.",
+        "Gorilla Gold is a grip-enhancing towel impregnated with an all-natural resin formula that creates a moisture-resistant tackified feel. Instead of absorbing moisture like rosin, it actively repels it. You simply squeeze the towel against your dry hands, gloves, or equipment grip with varying pressure to control the level of tack. Light pressure delivers subtle grip enhancement; firm pressure produces maximum tackiness. Gorilla Gold doesn't leave a lingering sticky feel. You control the amount of tack you want. It dissolves within minutes from your hands and longer from grips, gloves, and equipment. Reusable towel will typically last an everyday athlete a month or more. Occasional players have reported Gorilla Gold lasting months, even years. A 3-pack is under $25.00 making it an exceptional value over time.",
     },
     {
       heading: "Key Differences",
       content:
-        "The most significant difference is moisture performance. Rosin fails in wet conditions because it absorbs water and loses its effectiveness. Gorilla Gold's all-natural resin formula is inherently moisture-resistant, making it reliable in rain, humidity, and heavy perspiration. Mess is another major factor: rosin creates visible powder on hands and equipment, while Gorilla Gold applies cleanly and dissolves without buildup. Rosin also requires constant reapplication throughout a round or match, whereas Gorilla Gold provides lasting grip enhancement with less frequent touch-ups. Finally, Gorilla Gold is USGA-approved and R&A-conforming for golf, and it is the sole ASA-approved drying agent for softball, giving it a legality advantage in organized competition.",
+        "The most significant difference is moisture performance. Rosin fails in wet conditions because it absorbs water and loses its effectiveness. Gorilla Gold's all-natural resin formula is inherently moisture-resistant, making it reliable in rain, humidity, and heavy perspiration. Mess is another major factor: rosin creates visible powder on hands and equipment, while Gorilla Gold applies cleanly and dissolves without buildup. Rosin also requires constant reapplication throughout a round or match, whereas Gorilla Gold provides lasting grip enhancement with less frequent touch-ups. Finally, Gorilla Gold is USGA-approved and R&A-conforming for golf, and is even allowed for softball pitchers by the NCAA, NFHS, and USA Softball, making it one of the most broadly competition-legal grip aids available.",
     },
     {
       heading: "Verdict",
@@ -42,14 +42,14 @@ export const gorillaGoldVsRosin: BlogPost = {
       id: "vs-rosin-legal",
       question: "Is Gorilla Gold legal where rosin is allowed?",
       answer:
-        "Yes. Gorilla Gold conforms with the USGA Rules of Golf, is approved by the R&A, and is the sole ASA-approved drying agent for softball. It meets or exceeds the competition legality of rosin in every major sport.",
+        "Yes. Gorilla Gold conforms with the USGA Rules of Golf, is approved by the R&A, and is the sole drying agent allowed for softball pitchers by the NCAA, NFHS, and USA Softball. It meets or exceeds the competition legality of rosin in every major sport.",
       category: "Comparison",
     },
     {
       id: "vs-rosin-residue",
       question: "Does Gorilla Gold leave residue like rosin does?",
       answer:
-        "No. Unlike rosin powder, which accumulates on equipment and clothing, Gorilla Gold dissolves within hours and leaves no permanent residue on grips, handles, or gloves.",
+        "No. Unlike rosin powder, which accumulates on equipment and clothing, Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, leaving no permanent residue on grips, handles, or gloves.",
       category: "Comparison",
     },
     {
@@ -75,7 +75,8 @@ export const gorillaGoldVsRosin: BlogPost = {
     {
       label: "Softball Grip Aid",
       href: "/softball-grip-aid",
-      description: "The sole ASA-approved drying agent for softball pitchers.",
+      description:
+        "The sole NCAA, NFHS, and USA Softball-allowed drying agent for softball pitchers.",
     },
   ],
   relatedPosts: [

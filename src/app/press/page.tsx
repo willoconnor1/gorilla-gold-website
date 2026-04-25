@@ -41,12 +41,6 @@ const pressHighlights = [
       "My handicap dropped from 16.8 to 8.3. Gorilla Gold gave me confidence in my grip that I never had before.",
     author: "Andrew Cohn",
   },
-  {
-    publication: "Hank Haney",
-    quote:
-      "Should be in every golfer's bag. Gorilla Gold is the real deal for grip confidence.",
-    author: "Hank Haney, Golf Instructor",
-  },
 ];
 
 export default function PressPage() {
@@ -132,9 +126,10 @@ export default function PressPage() {
             </p>
             <p>
               Gorilla Gold is reusable, USGA approved, R&A conforming, and the
-              sole ASA-approved drying agent for softball pitchers. It contains
-              no synthetic chemicals and dissolves within hours, leaving no
-              residue.
+              sole drying agent allowed by the NCAA, NFHS, and USA Softball for
+              softball pitchers to use on the mound. It contains no synthetic
+              chemicals and dissolves within minutes from your hands and a few
+              hours from equipment, leaving no residue.
             </p>
           </div>
           <div className="mt-8 flex items-center gap-4">

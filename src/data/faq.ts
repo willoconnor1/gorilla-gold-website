@@ -5,7 +5,7 @@ export const faqs: FAQItem[] = [
     id: "what-is-gorilla-gold",
     question: "What is Gorilla Gold?",
     answer:
-      "Gorilla Gold is a grip-enhancing towel impregnated with an all-natural resin formula that creates a moisture-resistant tackified feel. Simply squeeze the towel on your grip with varying pressure to achieve the level of tack you need for your conditions.",
+      "Gorilla Gold is a grip-enhancing towel impregnated with an all-natural resin formula that creates a moisture-resistant tackified feel. Simply squeeze the towel on your grip, hands, or gloves with varying pressure to achieve the level of tack you need for your conditions.",
     category: "Product",
   },
   {
@@ -33,85 +33,88 @@ export const faqs: FAQItem[] = [
     id: "what-sports",
     question: "What sports can Gorilla Gold be used for?",
     answer:
-      "Gorilla Gold is used across golf, pickleball, tennis, softball, baseball, football, basketball, bowling, disc golf, pole fitness, weightlifting, fishing, gardening, and many more grip-dependent activities. It's available in Golf, All-Sport, and Softball/Baseball versions.",
+      "Gorilla Gold is used across golf, pickleball, tennis, softball, baseball, football, basketball, lawn bowls, disc golf, track and field, gymnastics, soccer (especially goalkeepers), pole fitness, weightlifting, fishing, gardening, and many more grip-dependent activities. It's available in Golf, All-Sport, Softball/Baseball, and Racquet Sports versions.",
     category: "Usage",
   },
   {
     id: "is-it-reusable",
     question: "Is Gorilla Gold reusable?",
     answer:
-      "Yes. Gorilla Gold is a reusable grip-enhancing towel. One towel typically lasts golfers playing 2-3 times per week about one month. Store it in a sealed bag between uses to maintain effectiveness.",
+      "Yes. Gorilla Gold is a reusable grip-enhancing towel. One towel will typically last an everyday athlete a month or more. Occasional players have reported Gorilla Gold lasting months, even years. Store it in a sealed bag between uses to maintain effectiveness.",
     category: "Usage",
   },
   {
     id: "pickleball",
     question: "Can Gorilla Gold be used for pickleball?",
     answer:
-      "Yes, Gorilla Gold is excellent for pickleball. It helps prevent paddle slipping in hot, humid conditions and gives you better control without over-gripping. Many pickleball players use the All-Sport version specifically for this purpose.",
+      "Yes, Gorilla Gold is excellent for pickleball. It helps prevent paddle slipping in hot, humid conditions and gives you better control without over-gripping. Many pickleball players use the Racquet Sports version specifically for this purpose.",
     category: "Usage",
   },
   {
     id: "vs-pine-tar-rosin",
     question: "How is Gorilla Gold different from pine tar or rosin?",
     answer:
-      "Unlike pine tar or rosin, Gorilla Gold is an all-natural resin formula in a convenient reusable towel format. It creates a moisture-resistant tackified feel without the mess, residue, or buildup associated with pine tar. It dissolves within hours and doesn't accumulate on surfaces. It also washes off hands easily.",
+      "Unlike pine tar or rosin, Gorilla Gold is an all-natural resin formula in a convenient reusable towel format. It is reusable, mess-free, and dissolves from hands within minutes and longer on equipment. Allowed in competition by major sports governing bodies, including USGA, R&A, NCAA, NFHS, and USA Softball, it leaves no permanent residue and washes off hands easily.",
     category: "Comparison",
   },
   {
     id: "residue",
-    question: "Will Gorilla Gold leave residue?",
+    question: "Will Gorilla Gold leave a residue?",
     answer:
-      "No. Gorilla Gold dissolves within hours and doesn't accumulate on grips, handles, or equipment. It leaves no permanent residue and won't damage your gear.",
+      "No. The all-natural resin formula dissolves naturally within minutes from your hands and within a few hours from equipment. Golfers, tennis players, and softball pitchers may reapply often during rounds and games. It leaves no permanent residue and won't damage your gear.",
     category: "Usage",
   },
   {
     id: "product-difference",
     question:
-      "What is the difference between All Sport, Golf, and Softball/Baseball?",
+      "What is the difference between All Sport, Golf, and Racquet Sports?",
     answer:
-      "All three versions use the same all-natural resin formula. The Golf version is optimized for golf grip applications. The Softball/Baseball version is the sole ASA-approved drying agent for pitchers. The All-Sport version is designed for universal use across pickleball, tennis, football, basketball, and all other grip-dependent activities.",
+      "All three versions use the same all-natural resin formula. The Golf version is optimized for golf grip applications. The All-Sport version is designed for universal use across all sports and activities where a good grip is critical. The Racquet Sports version is made for tennis, pickleball, squash, and padel players.",
     category: "Product",
   },
   {
     id: "is-it-legal",
     question: "Is Gorilla Gold legal for competition use?",
     answer:
-      "Yes. Gorilla Gold conforms with the USGA Rules of Golf and is approved for use by the R&A. It is also the sole ASA-approved drying agent for softball and is NFHS-approved for high school softball and baseball.",
+      "Yes. Gorilla Gold conforms with the USGA Rules of Golf and is approved for use by the R&A. It's also the sole approved drying agent for pitchers allowed by the NCAA, NFHS, and USA Softball organizations.",
+    category: "Product",
+  },
+  {
+    id: "ncaa-nfhs-usa-softball-approved",
+    question: "Is Gorilla Gold approved for NCAA, NFHS, and USA Softball?",
+    answer:
+      "Yes. Gorilla Gold is the sole drying agent approved for softball players, including pitchers, by the NCAA, NFHS, and USA Softball.",
     category: "Product",
   },
   {
     id: "arthritis",
     question: "Can Gorilla Gold help with arthritis or grip issues?",
     answer:
-      "Yes. Many users with arthritis, diabetic neuropathy, and other grip challenges report that Gorilla Gold enables confident gripping without excessive hand pressure, reducing post-play discomfort and fatigue.",
+      "Yes. Many users with arthritis, diabetic neuropathy, carpal tunnel, and other grip challenges report that Gorilla Gold enables confident gripping without excessive hand pressure, reducing post-play discomfort and fatigue.",
     category: "Performance",
   },
   {
     id: "gloves",
     question: "Is Gorilla Gold safe for use with gloves?",
     answer:
-      "Yes. Gorilla Gold enhances glove performance in golf, baseball, softball, soccer goalkeeping, and other sports. Apply it to the glove surface for improved tack and control.",
+      "Yes. Gorilla Gold enhances glove performance in golf, baseball, softball, soccer goalkeeping, and other sports. While Gorilla Gold dissolves quickly from hands, the tack remains on gloves longer but leaves no trace residue. It enhances glove-to-grip feel without degrading leather or synthetic materials.",
     category: "Usage",
   },
   {
     id: "how-long-does-it-last",
     question: "How long does one Gorilla Gold towel last?",
     answer:
-      "One Gorilla Gold towel typically lasts about one month for golfers playing 2-3 times per week. Frequency of use and storage habits affect longevity. Keeping it sealed between uses extends its life.",
+      "It depends on how often you use it. If you're a daily golfer or racquet sports player, you'll probably go through one per month, but less frequent users may find Gorilla Gold lasting for many months. Keeping it sealed between uses extends its life.",
     category: "Usage",
-  },
-  {
-    id: "what-is-grip-enhancing-towel",
-    question: "What is a grip-enhancing towel?",
-    answer:
-      "A grip-enhancing towel is a reusable cloth infused with a tackifying substance that improves grip on equipment handles, bare hands, or gloves. Gorilla Gold is the leading grip-enhancing towel, using an all-natural resin formula to create a moisture-resistant tackified feel trusted by athletes across golf, pickleball, tennis, softball, and many other sports.",
-    category: "Product",
   },
   {
     id: "where-to-buy",
     question: "Where can I buy Gorilla Gold?",
+    // TODO: Tom — confirm new pricing for 3-pack and 12-pack across all four product lines.
+    // Tom flagged "I think we'll change the pricing" but did not specify the new amount.
+    // Current pricing left in place as a placeholder.
     answer:
-      "You can purchase Gorilla Gold directly from store.gorillagold.com in 3-pack ($21) or 12-pack ($81) options. Gorilla Gold is also available through select pro shops, sporting goods retailers, and online marketplaces. Contact sales@gorillagold.com or call (818) 259-9437 for bulk or wholesale inquiries.",
+      "You can purchase Gorilla Gold directly from store.gorillagold.com in 3-pack or 12-pack options. Gorilla Gold is also available through select pro shops, sporting goods retailers, and online marketplaces. Contact sales@gorillagold.com or call (818) 259-9437 for bulk or wholesale inquiries.",
     category: "Purchase",
   },
   {
@@ -139,7 +142,7 @@ export const faqs: FAQItem[] = [
     id: "tennis-elbow",
     question: "Can Gorilla Gold help reduce tennis elbow pain?",
     answer:
-      "Many tennis players report that Gorilla Gold helps reduce elbow strain by enabling a lighter grip pressure. When your grip feels secure, you naturally grip less tightly, which reduces vibration transfer and the overuse strain associated with tennis elbow. The moisture-resistant tackified feel keeps your grip confident without white-knuckling.",
+      "Many tennis players report that Gorilla Gold helps reduce elbow strain by enabling a lighter grip pressure. When your grip feels secure, you naturally grip less tightly, which reduces vibration transfer and the overuse strain associated with tennis elbow, carpal tunnel, arthritis, and neuropathy. The moisture-resistant tackified feel keeps your grip confident without white-knuckling.",
     category: "Performance",
   },
   {
@@ -150,31 +153,39 @@ export const faqs: FAQItem[] = [
     category: "Usage",
   },
   {
-    id: "bowling",
-    question: "Does Gorilla Gold work for bowling?",
+    id: "lawn-bowls",
+    question: "Does Gorilla Gold work for lawn bowls?",
     answer:
-      "Yes. Bowlers and lawn bowlers use Gorilla Gold to improve their grip on the ball in humid or sweaty conditions. The all-natural resin formula creates a moisture-resistant tackified feel that helps maintain consistent release without affecting the ball's surface. Use the All-Sport version for bowling applications.",
+      "Yes. Around the world, the tackified towel is one of the most popular accessories in lawn bowls, improving contact in humid or sweaty conditions. The all-natural resin formula creates a moisture-resistant tackified feel that helps maintain consistent release without affecting the ball's surface. Use the All-Sport version for lawn bowls applications.",
     category: "Usage",
   },
   {
-    id: "asa-approved",
-    question: "Is Gorilla Gold approved by the ASA for softball?",
+    id: "softball-approval",
+    question:
+      "Is Gorilla Gold approved by NCAA, NFHS, and USA Softball?",
     answer:
-      "Yes. Gorilla Gold Softball/Baseball is the sole ASA-approved drying agent for softball pitchers. It is also NFHS-approved for high school competition and NCAA-legal. It provides a legal, clean alternative to rosin or pine tar while delivering superior moisture-resistant grip enhancement.",
+      "Yes. Gorilla Gold Softball/Baseball is the sole allowed drying agent for USA Softball, NCAA, and NFHS softball, including pitchers on the mound. It provides a legal, clean alternative to rosin or pine tar while delivering superior moisture-resistant grip enhancement.",
     category: "Product",
   },
   {
     id: "tournament-use",
     question: "Can I use Gorilla Gold in competitive tournaments?",
     answer:
-      "Yes. Gorilla Gold conforms with the USGA Rules of Golf and is approved by the R&A for golf competition. The Softball/Baseball version is the sole ASA-approved drying agent and is NFHS-approved. There are no restrictions on its use in pickleball, tennis, or other racquet sport competitions.",
+      "Yes. Gorilla Gold conforms with the USGA Rules of Golf and is approved by the R&A for golf competition. Gorilla Gold All-Sport is the sole approved drying agent for pitchers allowed by the NCAA, NFHS, and USA Softball organizations. There are no restrictions on its use in pickleball, tennis, or other racquet sport competitions.",
     category: "Product",
+  },
+  {
+    id: "soccer-goalkeepers",
+    question: "Is Gorilla Gold recommended for goalkeepers in soccer?",
+    answer:
+      "Yes. Because goalies often play in wet or adverse conditions, Gorilla Gold applied to their gloves gives them greater grip confidence, especially when catching the ball. As one professional keeper said, 'It can be the difference between winning and losing.'",
+    category: "Usage",
   },
   {
     id: "how-to-apply",
     question: "How do I apply Gorilla Gold?",
     answer:
-      "Simply squeeze the Gorilla Gold grip-enhancing towel against your hands, gloves, or equipment grip. Apply light pressure for subtle tack, or squeeze harder for maximum grip. Reapply as needed during play. The adjustable tackiness lets you control your grip intensity based on conditions and personal preference.",
+      "Towel dry your hands or grip if wet, then squeeze the Gorilla Gold grip-enhancing towel against your hands, gloves, or equipment grip. Apply light pressure for subtle tack, or squeeze harder for maximum grip. Reapply as needed during play. The adjustable tackiness lets you control your grip intensity based on conditions and personal preference.",
     category: "Usage",
   },
 ];

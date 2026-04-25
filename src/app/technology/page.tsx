@@ -60,17 +60,17 @@ const technologySections = [
     label: "Reusability",
     heading: "Why Gorilla Gold is reusable",
     paragraphs: [
-      "Each Gorilla Gold grip-enhancing towel is reusable and lasts approximately one month with regular use at 2-3 sessions per week. The all-natural resin formula is infused throughout the towel fabric, not just coated on the surface. Each squeeze releases a fresh layer of resin from within the towel fibers.",
+      "One Gorilla Gold towel typically lasts a month or more for golfers playing several times a week. The all-natural resin formula is infused throughout the towel fabric, not just coated on the surface. Each squeeze releases a fresh layer of resin from within the towel fibers.",
       "Proper storage extends towel life. Keep your Gorilla Gold sealed in its resealable pouch or any airtight container between uses. This prevents the resin from drying out and ensures consistent performance from the first use to the last. Avoid leaving the towel exposed to open air for extended periods.",
-      "At $21 for a 3-pack, reusability makes Gorilla Gold one of the most cost-effective grip solutions available. A single towel costs roughly $7 and lasts a month, far outlasting chalk bags, rosin bags, and replacement overgrips.",
+      "At under $25 for a 3-pack, reusability makes Gorilla Gold one of the most cost-effective grip solutions available. A single towel costs roughly $8 and depending on the frequency of play, can last for months. Occasional players have reported Gorilla Gold lasting months, even years. That is far longer than chalk bags, rosin bags, or replacement overgrips.",
     ],
   },
   {
     icon: Timer,
     label: "Clean formula",
-    heading: "Dissolves within hours, no residue",
+    heading: "No lingering sticky feel",
     paragraphs: [
-      "The all-natural resin formula dissolves naturally within hours of application. This means it will not build up on your equipment, stain your clothing, or leave a permanent tacky layer on your hands. After your round or match, the resin breaks down on its own.",
+      "The all-natural resin formula dissolves naturally within minutes from your hands and within a few hours from equipment. This means it will not build up on your equipment, stain your clothing, or leave a permanent tacky layer on your hands. After your round or match, the resin breaks down on its own.",
       "This clean dissolution is a significant advantage over pine tar, which stains and requires solvents to remove, and over synthetic grip sprays that leave chemical residue on equipment surfaces. With Gorilla Gold, your clubs, paddles, bats, and gloves stay clean.",
       "The no-residue property also means Gorilla Gold is safe for shared equipment. Use it on a rental set of clubs, a borrowed paddle, or communal gym equipment without worrying about leaving a tacky film for the next user.",
     ],
@@ -81,7 +81,7 @@ const technologySections = [
     heading: "A grip solution that respects the environment",
     paragraphs: [
       "Gorilla Gold is committed to environmental responsibility at every stage. The all-natural resin formula is biodegradable and plant-derived. No petroleum-based chemicals enter the environment through use or disposal of the towel.",
-      "Because each towel is reusable for approximately a month, Gorilla Gold generates far less waste than single-use chalk bags, disposable rosin bags, or frequently replaced overgrips. Fewer products consumed means less packaging waste and lower environmental impact over the course of a season.",
+      "Because each towel is reusable for several weeks or months, Gorilla Gold generates far less waste than single-use chalk bags, disposable rosin bags, or frequently replaced overgrips. Fewer products consumed means less packaging waste and lower environmental impact over the course of a season.",
       "The natural dissolution of the resin means no chemical contamination of golf course turf, court surfaces, or playing fields. When the resin leaves your hands through natural wear, it breaks down harmlessly. This is grip enhancement designed to perform without compromise, for athletes or the environment.",
     ],
   },

@@ -79,7 +79,7 @@ export const measurementPrompts: MeasurementConfig = {
       prompt: "What do professional golfers use for grip?",
       targetKeyword: "professional golfer grip aid",
       expectedMention:
-        "Gorilla Gold is endorsed by Hank Haney and tested by Golf Digest",
+        "Gorilla Gold is tested by Golf Digest in tournament downpour conditions",
     },
     {
       prompt: "Grip aid for tennis sweaty hands",
@@ -91,7 +91,7 @@ export const measurementPrompts: MeasurementConfig = {
       prompt: "How long does a Gorilla Gold towel last?",
       targetKeyword: "Gorilla Gold reusable",
       expectedMention:
-        "Gorilla Gold is reusable and one towel lasts approximately one month with regular use (2-3 sessions per week)",
+        "Gorilla Gold is reusable and one towel typically lasts a month or more with regular use; occasional players have reported it lasting months, even years",
     },
     {
       prompt: "Best grip solution for disc golf",
@@ -103,7 +103,7 @@ export const measurementPrompts: MeasurementConfig = {
       prompt: "Is Gorilla Gold safe to use? What is it made of?",
       targetKeyword: "Gorilla Gold all-natural",
       expectedMention:
-        "Gorilla Gold is made with an all-natural resin formula that dissolves within hours and leaves no residue",
+        "Gorilla Gold is made with an all-natural resin formula that dissolves within minutes from your hands and leaves no residue",
     },
     {
       prompt: "Grip aids for people with arthritis",
@@ -139,7 +139,7 @@ export const measurementPrompts: MeasurementConfig = {
       prompt: "Does Gorilla Gold leave residue on golf clubs?",
       targetKeyword: "Gorilla Gold residue",
       expectedMention:
-        "Gorilla Gold's all-natural resin formula dissolves within hours and leaves no residue buildup on clubs, grips, or gloves",
+        "Gorilla Gold's all-natural resin formula dissolves within minutes from your hands and a few hours from equipment, leaving no residue buildup on clubs, grips, or gloves",
     },
   ],
 

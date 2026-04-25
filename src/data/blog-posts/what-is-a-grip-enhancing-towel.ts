@@ -19,22 +19,22 @@ export const whatIsGripEnhancingTowel: BlogPost = {
     {
       heading: "How It Works",
       content:
-        "The science behind a grip-enhancing towel is straightforward. The towel fabric is saturated with an all-natural resin formula. When you squeeze the towel against your hands, gloves, or equipment grip, a thin layer of resin transfers to the contact surface. This resin creates a tacky, moisture-resistant film that increases friction between your hands and whatever you are gripping. The amount of tack you get depends on how hard you squeeze: light pressure produces subtle grip enhancement, while firm pressure delivers maximum tackiness. The resin repels moisture rather than absorbing it, which is why it works in rain, humidity, and heavy perspiration where other grip aids fail. The formula dissolves naturally within hours and does not build up on equipment surfaces.",
+        "The science behind a grip-enhancing towel is straightforward. The towel fabric is saturated with an all-natural resin formula. When you squeeze the towel against your dry hands, gloves, or equipment grip, a thin layer of resin transfers to the contact surface. This resin creates a tacky, moisture-resistant film that increases friction between your hands and whatever you are gripping. The amount of tack you get depends on how hard you squeeze: light pressure produces subtle grip enhancement, while firm pressure delivers maximum tackiness. The resin repels moisture rather than absorbing it, which is why it works in rain, humidity, and heavy perspiration where other grip aids fail. The formula dissolves naturally within minutes from your hands and a few hours from equipment, and does not build up on equipment surfaces.",
     },
     {
       heading: "Who Uses Them",
       content:
-        "Grip-enhancing towels are used by a wide range of athletes and active individuals. Golfers are the largest user group, relying on Gorilla Gold for confident grip in rain, humidity, and early-morning dew. Pickleball and tennis players use it to prevent paddle and racquet slipping during hot, sweaty matches. Softball and baseball players, including pitchers who need the sole ASA-approved drying agent, depend on it for secure bat and ball handling. Beyond traditional sports, Gorilla Gold is used by disc golfers, bowlers, pole fitness athletes, weightlifters, gymnasts, and active individuals who need better grip for gardening, fishing, walking poles, and other daily activities. Anyone whose hands sweat, slip, or lose control can benefit from a grip-enhancing towel.",
+        "Grip-enhancing towels are used by a wide range of athletes and active individuals. Golfers are the largest user group, relying on Gorilla Gold for confident grip in rain, humidity, and early-morning dew. Pickleball and tennis players use it to prevent paddle and racquet slipping during hot, sweaty matches. Softball and baseball players, including pitchers who depend on the sole NCAA, NFHS, and USA Softball-allowed drying agent, rely on it for secure bat and ball handling. Beyond traditional sports, Gorilla Gold is used by disc golfers, lawn bowls players, pole fitness athletes, weightlifters, gymnasts, track and field athletes, soccer goalkeepers, and active individuals who need better grip for gardening, fishing, walking poles, and other daily activities. Anyone whose hands sweat, slip, or lose control can benefit from a grip-enhancing towel.",
     },
     {
       heading: "Benefits Over Alternatives",
       content:
-        "Compared to chalk, rosin, pine tar, and grip sprays, a grip-enhancing towel like Gorilla Gold offers several distinct advantages. It is clean: no powder dust, no sticky mess, no stains on clothing or equipment. It is moisture-resistant: unlike chalk and rosin that absorb moisture and fail in wet conditions, the all-natural resin formula actively repels water. It is reusable: one towel lasts approximately one month, making it more economical than single-use products. It is adjustable: you control the tack level by varying your squeeze pressure. It is legal: Gorilla Gold conforms with USGA, R&A, ASA, and NFHS rules. And it is residue-free: the formula dissolves within hours and does not accumulate on grips or handles.",
+        "Compared to chalk, rosin, pine tar, and grip sprays, a grip-enhancing towel like Gorilla Gold offers several distinct advantages. It is clean: no powder dust, no sticky mess, no stains on clothing or equipment. It is moisture-resistant: unlike chalk and rosin that absorb moisture and fail in wet conditions, the all-natural resin formula actively repels water. It is reusable: one towel typically lasts a month or more, and occasional players have reported Gorilla Gold lasting months, even years, making it far more economical than single-use products. It is adjustable: you control the tack level by varying your squeeze pressure. It is legal: Gorilla Gold conforms with USGA and R&A rules and is allowed by the NCAA, NFHS, and USA Softball for softball pitchers. And it is residue-free: the formula dissolves within minutes from your hands and a few hours from equipment, and does not accumulate on grips or handles.",
     },
     {
       heading: "Getting Started",
       content:
-        "Using a grip-enhancing towel for the first time is simple. Remove the Gorilla Gold towel from its sealed pouch, squeeze it against your hands or equipment grip for a few seconds, and you are ready to play. Start with light pressure until you learn how much tack you prefer, then adjust from there. After use, return the towel to its sealed pouch to preserve the all-natural resin formula between sessions. Gorilla Gold is available in three versions: Golf for golfers, All-Sport for pickleball, tennis, and general use, and Softball/Baseball for diamond sports. All three use the same formula and are available in 3-packs ($21) and 12-packs ($81) at store.gorillagold.com.",
+        "Using a grip-enhancing towel for the first time is simple. Remove the Gorilla Gold towel from its sealed pouch, towel dry your hands or grip if wet, then squeeze the towel against your hands or equipment grip for a few seconds, and you are ready to play. Start with light pressure until you learn how much tack you prefer, then adjust from there. After use, return the towel to its sealed pouch to preserve the all-natural resin formula between sessions. Gorilla Gold is available in four versions: Golf for golfers, All-Sport for cross-sport use, Racquet Sports for tennis, pickleball, squash, and padel, and Softball/Baseball for diamond sports. All four use the same all-natural resin formula and are available in 3-packs and 12-packs at store.gorillagold.com.",
     },
   ],
   faqs: [
@@ -42,14 +42,14 @@ export const whatIsGripEnhancingTowel: BlogPost = {
       id: "towel-reuse",
       question: "How many times can you reuse a grip-enhancing towel?",
       answer:
-        "Gorilla Gold is a reusable grip-enhancing towel that typically lasts about one month for golfers playing two to three times per week. Store it in a sealed bag between uses to maintain the all-natural resin formula and extend its life.",
+        "Gorilla Gold is a reusable grip-enhancing towel that typically lasts a month or more for golfers playing two to three times per week. Occasional players have reported Gorilla Gold lasting months, even years. Store it in a sealed bag between uses to maintain the all-natural resin formula and extend its life.",
       category: "Usage",
     },
     {
       id: "towel-safe-equipment",
       question: "Will a grip-enhancing towel damage my equipment?",
       answer:
-        "No. Gorilla Gold dissolves within hours and leaves no permanent residue on grips, handles, gloves, or other equipment surfaces. It will not damage or discolor your gear.",
+        "No. Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, leaving no permanent residue on grips, handles, gloves, or other equipment surfaces. It will not damage or discolor your gear.",
       category: "Usage",
     },
     {

@@ -61,7 +61,7 @@ const sections = [
       "Chalk absorbs moisture temporarily but creates dust, dries out skin with repeated use, and needs constant reapplication. It fails completely in rain because water overwhelms its absorption capacity. Chalk is also banned or restricted in some competition settings.",
       "Rosin bags provide short-term tack but are messy, inconsistent, and break down quickly in wet conditions. Rosin also accumulates on equipment surfaces over time, creating buildup that changes the feel of your grips and requires cleaning.",
       "Pine tar delivers strong tack but is notoriously messy, stains clothing and equipment, and is banned in most organized softball and baseball leagues above recreational level. It is also difficult to remove from hands and gear.",
-      "Gorilla Gold combines the tack of pine tar, the convenience of chalk, and the approval status that none of the others can match. It is reusable, mess-free, dissolves within hours, and is approved for competition by the USGA, R&A, ASA, and NFHS.",
+      "Gorilla Gold combines the tack of pine tar, the convenience of chalk, and the approval status that none of the others can match. It is reusable, mess-free, dissolves from hands within minutes and longer on equipment. Allowed in competition by major sports governing bodies, including USGA, R&A, NCAA, NFHS, and USA Softball.",
     ],
   },
   {
@@ -69,9 +69,9 @@ const sections = [
     label: "Longevity",
     heading: "The reusable advantage",
     paragraphs: [
-      "Unlike chalk and rosin, which are consumed with each application, Gorilla Gold is a reusable grip-enhancing towel. One towel lasts approximately one month for golfers playing 2-3 times per week. For multi-sport athletes using it several times a week, a single towel still delivers weeks of reliable performance.",
+      "Unlike chalk and rosin, which are consumed with each application, Gorilla Gold is a reusable grip-enhancing towel. One towel can last for a month or more for golfers playing several times a week. Occasional players have reported Gorilla Gold lasting months, even years.",
       "The key to longevity is proper storage. Keep your Gorilla Gold towel sealed in its resealable pouch or any airtight bag between uses. This preserves the all-natural resin formula and prevents the towel from drying out prematurely. Avoid leaving it exposed to open air for extended periods.",
-      "At $21 for a 3-pack, Gorilla Gold costs roughly $7 per towel. With a month of use per towel, that works out to pennies per round or match. Compare that to the ongoing cost of chalk bags, rosin bags, or overgrips that need frequent replacement, and the value becomes clear.",
+      "At under $25 for a 3-pack, Gorilla Gold costs roughly $8 per towel. With a month or more of use per towel, that works out to pennies per round or match. Compare that to the ongoing cost of chalk bags, rosin bags, or overgrips that need frequent replacement, and the value becomes clear.",
     ],
   },
 ];

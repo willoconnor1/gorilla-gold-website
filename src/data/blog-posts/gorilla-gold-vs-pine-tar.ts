@@ -24,12 +24,12 @@ export const gorillaGoldVsPineTar: BlogPost = {
     {
       heading: "Gorilla Gold Advantages",
       content:
-        "Gorilla Gold's all-natural resin formula creates a moisture-resistant tackified feel without any of the mess associated with pine tar. The grip-enhancing towel format means application is clean, controlled, and adjustable. Squeeze lightly for subtle tack or firmly for maximum grip. The resin dissolves within hours and leaves no permanent residue on hands, gloves, bats, or other equipment. There is no staining, no buildup, and no cleanup required. Gorilla Gold is also reusable: one towel lasts approximately one month with regular use, making it more economical than repeatedly purchasing pine tar products. Storage is simple; just seal the towel in its pouch between uses to preserve the formula.",
+        "Gorilla Gold's all-natural resin formula creates a moisture-resistant tackified feel without any of the mess associated with pine tar. The grip-enhancing towel format means application is clean, controlled, and adjustable. Squeeze lightly for subtle tack or firmly for maximum grip. The resin dissolves within minutes from your hands and a few hours from equipment, and leaves no permanent residue on hands, gloves, bats, or other gear. There is no staining, no buildup, and no cleanup required. Gorilla Gold is also reusable: one towel typically lasts a month or more with regular use, and occasional players have reported Gorilla Gold lasting months, even years, making it far more economical than repeatedly purchasing pine tar products. Storage is simple; just seal the towel in its pouch between uses to preserve the formula.",
     },
     {
       heading: "Legality",
       content:
-        "This is where Gorilla Gold holds a decisive advantage. Gorilla Gold Softball/Baseball is the sole ASA-approved drying agent and is NFHS-approved for high school competition. It is also NCAA-legal. Gorilla Gold conforms with the USGA Rules of Golf and is approved by the R&A for golf competition. There are no restrictions on its use in pickleball, tennis, or other racquet sports. Pine tar, by contrast, faces strict rules in baseball regarding where it can be applied, and it is banned entirely for pitchers. Athletes who use Gorilla Gold never need to worry about rule violations, equipment inspections, or ejections related to grip substances.",
+        "This is where Gorilla Gold holds a decisive advantage. Gorilla Gold Softball/Baseball is the sole NCAA, USA Softball, and NFHS-allowed drying agent for softball pitchers to use on the mound, and is also allowed by ISC and ISF for tournament play. Gorilla Gold conforms with the USGA Rules of Golf and is approved by the R&A for golf competition. There are no restrictions on its use in pickleball, tennis, or other racquet sports. Pine tar, by contrast, faces strict rules in baseball regarding where it can be applied, and it is banned entirely for pitchers. Athletes who use Gorilla Gold never need to worry about rule violations, equipment inspections, or ejections related to grip substances.",
     },
     {
       heading: "Verdict",
@@ -42,14 +42,14 @@ export const gorillaGoldVsPineTar: BlogPost = {
       id: "vs-pine-tar-stain",
       question: "Does Gorilla Gold stain like pine tar?",
       answer:
-        "No. Gorilla Gold dissolves within hours and leaves no permanent residue or stains on hands, gloves, equipment, or clothing. Pine tar, by contrast, creates stubborn stains that are extremely difficult to remove.",
+        "No. Gorilla Gold dissolves within minutes from your hands and a few hours from equipment, leaving no permanent residue or stains on hands, gloves, gear, or clothing. Pine tar, by contrast, creates stubborn stains that are extremely difficult to remove.",
       category: "Comparison",
     },
     {
       id: "vs-pine-tar-pitchers",
       question: "Can pitchers use Gorilla Gold instead of pine tar?",
       answer:
-        "Yes. Gorilla Gold Softball/Baseball is the sole ASA-approved drying agent for softball pitchers. It provides legal grip enhancement without the rule violations associated with pine tar use on the mound.",
+        "Yes. Gorilla Gold Softball/Baseball is the sole NCAA, USA Softball, and NFHS-allowed drying agent for softball pitchers to use on the mound. It provides legal grip enhancement without the rule violations associated with pine tar use on the mound.",
       category: "Comparison",
     },
   ],
@@ -63,7 +63,8 @@ export const gorillaGoldVsPineTar: BlogPost = {
     {
       label: "Softball Grip Aid",
       href: "/softball-grip-aid",
-      description: "ASA-approved grip enhancement for softball players.",
+      description:
+        "NCAA, NFHS, and USA Softball-allowed grip enhancement for softball players.",
     },
     {
       label: "Golf Grip Aid",

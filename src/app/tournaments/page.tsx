@@ -15,11 +15,11 @@ import { CTABanner } from "@/components/ui/CTABanner";
 export const metadata: Metadata = {
   title: "Tournament Partnerships | Gorilla Gold Grip-Enhancing Towel",
   description:
-    "Gorilla Gold supports competitive play with USGA approved, R&A conforming, and ASA-approved grip-enhancing towels. Learn about tournament supply partnerships and sponsorship opportunities.",
+    "Gorilla Gold supports competitive play with USGA approved, R&A conforming grip-enhancing towels. The sole drying agent allowed by the NCAA, NFHS, and USA Softball for softball pitchers. Tournament partnerships and sponsorship opportunities.",
   openGraph: {
     title: "Tournament Partnerships | Gorilla Gold Grip-Enhancing Towel",
     description:
-      "Gorilla Gold supports competitive play with USGA approved, R&A conforming, and ASA-approved grip-enhancing towels. Learn about tournament supply partnerships and sponsorship opportunities.",
+      "Gorilla Gold supports competitive play with USGA approved, R&A conforming grip-enhancing towels. The sole drying agent allowed by the NCAA, NFHS, and USA Softball for softball pitchers.",
   },
 };
 
@@ -28,12 +28,12 @@ const golfApprovals = [
   "R&A conforming under the Rules of Golf",
   "Legal in all PGA Tour, LPGA, amateur, and collegiate events",
   "Permitted in USGA qualifiers, club championships, and state amateur events",
-  "Endorsed by Hank Haney, one of golf's most respected instructors",
+  "Tested by Golf Digest in tournament downpour conditions",
 ];
 
 const softballApprovals = [
-  "Sole ASA-approved drying agent for softball pitchers",
-  "NFHS approved for high school competition",
+  "Sole drying agent allowed by the NCAA, NFHS, and USA Softball for softball pitchers",
+  "Also allowed by ISC and ISF for tournament play",
   "Legal for use during sanctioned tournament play",
   "Used by collegiate and travel softball programs nationwide",
 ];
@@ -72,7 +72,7 @@ export default function TournamentsPage() {
       <PageHero
         label="Tournaments"
         h1="Tournament Partnerships"
-        introText="Gorilla Gold supports competitive play at every level. As a USGA approved, R&A conforming, and ASA-approved grip-enhancing towel, Gorilla Gold is one of the few grip products that athletes can legally use in sanctioned competition. We partner with tournaments, leagues, and events to put our product in the hands of competitive players."
+        introText="Gorilla Gold supports competitive play at every level. As a USGA approved, R&A conforming grip-enhancing towel, and the sole drying agent allowed by the NCAA, NFHS, and USA Softball for softball pitchers, Gorilla Gold is one of the few grip products that athletes can legally use in sanctioned competition. We partner with tournaments, leagues, and events to put our product in the hands of competitive players."
       />
 
       {/* Golf Tournament Approval */}
@@ -106,14 +106,14 @@ export default function TournamentsPage() {
         <div className="mx-auto max-w-7xl px-6">
           <SectionLabel>Softball and baseball</SectionLabel>
           <h2 className="mt-4 font-heading text-3xl font-bold tracking-tight text-text-primary sm:text-5xl">
-            The sole ASA-approved drying agent
+            The sole NCAA, NFHS, and USA Softball-allowed drying agent
           </h2>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-text-secondary">
             Gorilla Gold holds a unique distinction in softball: it is the only
-            drying agent approved by the ASA (Amateur Softball Association) for
-            use by pitchers during sanctioned play. Pine tar, rosin, and other
-            grip aids are banned or restricted, but Gorilla Gold is explicitly
-            permitted.
+            drying agent allowed by the NCAA, NFHS, and USA Softball for use by
+            pitchers on the mound during sanctioned play. Pine tar, rosin, and
+            other grip aids are banned or restricted, but Gorilla Gold is
+            explicitly permitted.
           </p>
 
           <div className="mt-12 space-y-4">
