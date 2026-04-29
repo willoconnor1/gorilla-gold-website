@@ -163,7 +163,7 @@ export const products: ProductPageData[] = [
     ],
     images: [
       {
-        src: "/images/gorilla-gold-racquet-sports.png",
+        src: "/images/gorilla-gold-racquet-sports.webp",
         alt: "Gorilla Gold Racquet Sports grip-enhancing towel 3-pack",
       },
     ],

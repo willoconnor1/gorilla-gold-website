@@ -36,7 +36,7 @@ const products = [
     href: "https://store.gorillagold.com",
     sports: ["Tennis", "Pickleball", "Squash", "Padel"],
     color: "from-blue-500/10 to-transparent",
-    image: "/images/gorilla-gold-racquet-sports.png",
+    image: "/images/gorilla-gold-racquet-sports.webp",
     alt: "Gorilla Gold Racquet Sports grip-enhancing towel 3-pack",
   },
 ];
