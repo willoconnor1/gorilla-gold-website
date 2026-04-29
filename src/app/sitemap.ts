@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/shop`, lastModified: now, priority: 0.8 },
     { url: `${baseUrl}/shop/gorilla-gold-golf`, lastModified: now, priority: 0.8 },
     { url: `${baseUrl}/shop/gorilla-gold-all-sport`, lastModified: now, priority: 0.8 },
-    { url: `${baseUrl}/shop/gorilla-gold-softball-baseball`, lastModified: now, priority: 0.8 },
+    { url: `${baseUrl}/shop/gorilla-gold-racquet-sports`, lastModified: now, priority: 0.8 },
 
     // FAQ (priority 0.8)
     { url: `${baseUrl}/faq`, lastModified: now, priority: 0.8 },

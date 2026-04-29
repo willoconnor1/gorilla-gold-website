@@ -381,7 +381,7 @@ export default function HowToUsePage() {
 
       <TrustSection />
 
-      <ProductModule productHandles={["gorilla-gold-golf", "gorilla-gold-all-sport", "gorilla-gold-softball-baseball"]} />
+      <ProductModule productHandles={["gorilla-gold-golf", "gorilla-gold-all-sport", "gorilla-gold-racquet-sports"]} />
 
       {howToUseFaqs.length > 0 && (
         <FAQSection

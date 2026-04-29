@@ -673,7 +673,7 @@ export const categories: Record<string, CategoryPage> = {
     relatedProducts: [
       "gorilla-gold-all-sport",
       "gorilla-gold-golf",
-      "gorilla-gold-softball-baseball",
+      "gorilla-gold-racquet-sports",
     ],
     relatedCategories: [
       {
@@ -951,7 +951,7 @@ export const categories: Record<string, CategoryPage> = {
     relatedProducts: [
       "gorilla-gold-golf",
       "gorilla-gold-all-sport",
-      "gorilla-gold-softball-baseball",
+      "gorilla-gold-racquet-sports",
     ],
     relatedCategories: [
       {
@@ -1104,8 +1104,8 @@ export const categories: Record<string, CategoryPage> = {
       "butters",
     ],
     relatedProducts: [
-      "gorilla-gold-softball-baseball",
       "gorilla-gold-all-sport",
+      "gorilla-gold-golf",
     ],
     relatedCategories: [
       {

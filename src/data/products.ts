@@ -130,69 +130,6 @@ export const products: ProductPageData[] = [
     ],
   },
   {
-    handle: "gorilla-gold-softball-baseball",
-    name: "Gorilla Gold Softball/Baseball",
-    tagline: "The sole drying agent allowed by NCAA, NFHS, and USA Softball",
-    metaDescription:
-      "Gorilla Gold Softball Baseball grip-enhancing towel. Sole NCAA, NFHS, and USA Softball-allowed drying agent for pitchers. All-natural resin for hitters and fielders.",
-    description:
-      "Gorilla Gold is a grip-enhancing towel and the sole NCAA, USA Softball, and NFHS-allowed drying agent for softball pitchers to use on the mound. The all-natural resin formula creates a moisture-resistant tackified feel that gives pitchers precise ball control, hitters a relaxed bat grip for faster swings, and fielders confident glove-hand traction. Reusable, Gorilla Gold is legal at every level of play from youth leagues to championship tournaments.",
-    features: [
-      "Allowed by NCAA, NFHS, USA Softball, ISC, and ISF for tournament play",
-      "Sole drying agent for softball pitchers to use on the mound",
-      "All-natural resin formula creates moisture-resistant tackified feel for precise ball control",
-      "Improves bat grip for relaxed hands and faster swing speed",
-      "Works on bare hands, batting gloves, and fielding gloves",
-      "Proven in rain tournaments: maintains grip when other aids wash away",
-      "Dissolves within minutes from hands and a few hours from equipment, with no residue on bats, balls, gloves, or uniforms",
-      "Reusable towel format: clean alternative to messy pine tar and rosin bags",
-    ],
-    sports: ["Softball", "Baseball"],
-    skus: [
-      {
-        name: "Gorilla Gold Softball/Baseball 3-Pack",
-        sku: "109",
-        packSize: "3-Pack",
-        price: "21.00",
-      },
-      {
-        name: "Gorilla Gold Softball/Baseball 12-Pack",
-        sku: "110",
-        packSize: "12-Pack",
-        price: "81.00",
-      },
-    ],
-    images: [
-      {
-        src: "/images/gorilla-gold-baseball.webp",
-        alt: "Gorilla Gold Softball Baseball grip-enhancing towel 3-pack",
-      },
-    ],
-    relatedCategories: [
-      {
-        label: "Best Grip Aid for Softball and Baseball",
-        href: "/softball-grip-aid",
-        description:
-          "Complete guide to Gorilla Gold for pitchers, hitters, and fielders.",
-      },
-      {
-        label: "Gorilla Gold vs Rosin vs Pine Tar",
-        href: "/grip-aid-comparisons",
-        description:
-          "Detailed comparison of Gorilla Gold against pine tar, rosin, and other grip aids.",
-      },
-      {
-        label: "Wet Weather Grip Aid",
-        href: "/wet-weather-grip-aid",
-        description:
-          "How Gorilla Gold performs in rain tournaments and wet conditions.",
-      },
-    ],
-  },
-  // TODO: Tom — confirm Racquet Sports SKU numbers, real pricing, and product photo.
-  // Placeholder added per Tom's revision doc (FAQ refers to Racquet Sports as a distinct product
-  // for tennis, pickleball, squash, and padel players).
-  {
     handle: "gorilla-gold-racquet-sports",
     name: "Gorilla Gold Racquet Sports",
     tagline: "Built for tennis, pickleball, squash, and padel",
@@ -212,14 +149,12 @@ export const products: ProductPageData[] = [
     sports: ["Tennis", "Pickleball", "Squash", "Padel"],
     skus: [
       {
-        // TODO: Tom — confirm real SKU and pricing for Racquet Sports 3-pack.
         name: "Gorilla Gold Racquet Sports 3-Pack",
         sku: "TBD-RS3",
         packSize: "3-Pack",
         price: "21.00",
       },
       {
-        // TODO: Tom — confirm real SKU and pricing for Racquet Sports 12-pack.
         name: "Gorilla Gold Racquet Sports 12-Pack",
         sku: "TBD-RS12",
         packSize: "12-Pack",
@@ -228,9 +163,8 @@ export const products: ProductPageData[] = [
     ],
     images: [
       {
-        // TODO: Tom — replace with real Racquet Sports product photo when available.
-        src: "/images/gorilla-gold-all-sport.webp",
-        alt: "Gorilla Gold Racquet Sports grip-enhancing towel (placeholder image)",
+        src: "/images/gorilla-gold-racquet-sports.png",
+        alt: "Gorilla Gold Racquet Sports grip-enhancing towel 3-pack",
       },
     ],
     relatedCategories: [

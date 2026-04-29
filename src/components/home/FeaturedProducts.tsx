@@ -31,25 +31,13 @@ const products = [
   {
     name: "Gorilla Gold Racquet Sports",
     description:
-      "Made for tennis, pickleball, squash, and padel players. (Placeholder image and pricing — pending Tom confirmation.)",
+      "Made for tennis, pickleball, squash, and padel players. Confident control through humid matches and long practice sessions.",
     price: "From $21.00",
     href: "https://store.gorillagold.com",
     sports: ["Tennis", "Pickleball", "Squash", "Padel"],
     color: "from-blue-500/10 to-transparent",
-    // TODO: Tom — replace with real Racquet Sports product photo when available.
-    image: "/images/gorilla-gold-all-sport.webp",
-    alt: "Gorilla Gold Racquet Sports grip-enhancing towel (placeholder image)",
-  },
-  {
-    name: "Gorilla Gold Softball / Baseball",
-    description:
-      "The sole NCAA, NFHS, and USA Softball-allowed drying agent for softball pitchers to use on the mound.",
-    price: "From $21.00",
-    href: "https://store.gorillagold.com",
-    sports: ["Softball", "Baseball"],
-    color: "from-red-500/10 to-transparent",
-    image: "/images/gorilla-gold-baseball.webp",
-    alt: "Gorilla Gold Softball Baseball grip-enhancing towel 3-pack NCAA NFHS USA Softball allowed",
+    image: "/images/gorilla-gold-racquet-sports.png",
+    alt: "Gorilla Gold Racquet Sports grip-enhancing towel 3-pack",
   },
 ];
 
@@ -66,8 +54,8 @@ export function FeaturedProducts() {
               perfect grip.
             </h2>
             <p className="mt-4 max-w-md text-base text-text-secondary">
-              Available in Golf, All-Sport, Racquet Sports, and Softball/Baseball
-              versions. Same all-natural resin formula, tailored for your game.
+              Available in Golf, All-Sport, and Racquet Sports versions.
+              Same all-natural resin formula, tailored for your game.
             </p>
           </div>
           <Button href="https://store.gorillagold.com" variant="primary" arrow>
@@ -75,7 +63,7 @@ export function FeaturedProducts() {
           </Button>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product, i) => (
             <motion.div
               key={product.name}
@@ -99,7 +87,7 @@ export function FeaturedProducts() {
                       alt={product.alt}
                       fill
                       className="object-contain p-4 pt-8 object-center transition-transform duration-300 group-hover:scale-105"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
                   </div>
 

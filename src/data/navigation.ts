@@ -36,7 +36,7 @@ export const footerNav = {
   products: [
     { label: "Gorilla Gold Golf", href: "/shop/gorilla-gold-golf" },
     { label: "Gorilla Gold All-Sport", href: "/shop/gorilla-gold-all-sport" },
-    { label: "Gorilla Gold Softball/Baseball", href: "/shop/gorilla-gold-softball-baseball" },
+    { label: "Gorilla Gold Racquet Sports", href: "/shop/gorilla-gold-racquet-sports" },
     { label: "All Products", href: "/shop" },
   ],
   sports: [
